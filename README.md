@@ -37,10 +37,10 @@ xclass | Any extra classes you want to add | optional | any text | none
 
 
 ### Icon Stacks
-	[icon-stack] 
+	[fa-icon-stack] 
         [fa-icon type="circle" stack-base="true"]
         [fa-icon type="flag"]
-    [/icon-stack]
+    [/fa-icon-stack]
 
 [Font Awesome documentation](http://fortawesome.github.io/Font-Awesome/examples/).
 

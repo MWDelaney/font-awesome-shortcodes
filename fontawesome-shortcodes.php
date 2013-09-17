@@ -47,7 +47,7 @@ class FontawesomeShortcodes {
   function add_shortcodes() {
 
     add_shortcode('fa-icon', array( $this, 'fa_icon' ));
-    add_shortcode('fa-icon-stack', array( $this, 'fa_icon-stack' ));
+    add_shortcode('fa-icon-stack', array( $this, 'fa_icon_stack' ));
 
   }
 
@@ -78,13 +78,13 @@ class FontawesomeShortcodes {
      $return .= ($type) ? ' icon-' . $type : '';
      $return .= ($size) ? ' icon-' . $size : '';
      $return .= ($pull) ? ' pull-' . $pull : '';
-     $return .= ($border) ? ' icon-border';
-     $return .= ($spin) ? ' icon-spin';
-     $return .= ($list-item) ? ' icon-li';
-     $return .= ($fixed-width) ? ' icon-fixed-width';
+     $return .= ($border) ? ' icon-border' : '';
+     $return .= ($spin) ? ' icon-spin' : '';
+     $return .= ($list-item) ? ' icon-li' : '';
+     $return .= ($fixed-width) ? ' icon-fixed-width' : '';
      $return .= ($rotate) ? ' icon-rotate-' . $rotate : '';
      $return .= ($flip) ? ' icon-flip-' . $flip : '';
-     $return .= ($stack-base) ? ' icon-stack-base';
+     $return .= ($stack-base) ? ' icon-stack-base' : '';
      $return .= ($xclass) ? ' ' . $xclass : '';
      $return .= '"></i>';
 
@@ -93,17 +93,17 @@ class FontawesomeShortcodes {
     
   /*--------------------------------------------------------------------------------------
     *
-    * fa_icon-stack
+    * fa_icon_stack
     *
     * @author Filip Stefansson
     * @since 1.0
     *
     *-------------------------------------------------------------------------------------*/
-  function fa_icon-stack( $atts, $content = null ) {
+  function fa_icon_stack( $atts, $content = null ) {
     return '<span class="icon-stack">' . do_shortcode( $content ) . '</span>';
 
   }
     
 }
 
-new BoostrapShortcodes();
+new FontawesomeShortcodes();
