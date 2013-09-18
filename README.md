@@ -4,7 +4,7 @@ Font Awesome Shortcodes for WordPress
 This is a plugin for WordPress that adds shortcodes for easier use of the Font Awesome icons in your content.
 
 ## Requirements
-This plugin won't do anything if you don't have website built with [Font Awesome](http://fortawesome.github.io/Font-Awesome/). **The plugin does not include the Font Awesome**.
+This plugin won't do anything if you don't have website built with [Font Awesome](http://fortawesome.github.io/Font-Awesome/). **The plugin does not include Font Awesome**.
 
 The plugin is tested to work with ```Font Awesome version 3.2.1``` and ```WordPress 3.6```.
 
