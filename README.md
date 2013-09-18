@@ -35,6 +35,8 @@ flip | Flip the icon vertically or horizontally | optional | vertical, horizonta
 stack-base | Whether this icon is the base of an icon-stack | optional | true, false | false
 xclass | Any extra classes you want to add | optional | any text | none
 
+[Icon Reference](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
+
 
 ### Icon Stacks
 	[fa-icon-stack] 
