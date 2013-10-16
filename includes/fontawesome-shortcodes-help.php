@@ -73,14 +73,24 @@ $html = MarkdownExtra::defaultTransform($text);
     #selector .panel-body  a i {
         text-decoration: none !important;
     }
+    #selector .panel-body .col-xs-3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #selector .panel-body .col-xs-3 a {
-        text-align: center;
-        border: 1px solid #e1e1e8;
+        height: 115px;
         padding: 10px;
-        margin: 10px 5px 15px 5px;
+        margin: 0 -1px -1px 0;
+        font-size: 12px;
+        line-height: 1.4;
+        text-align: center;
+        border: 1px solid #ddd;
     }
     .container {
         margin-top: 15px;
+    }
+    .bs-glyphicons li:hover {
+        background-color: rgba(86,61,124,.1);
     }
 </style>
         <title>Font Awesome Shortcodes Documentation</title>
