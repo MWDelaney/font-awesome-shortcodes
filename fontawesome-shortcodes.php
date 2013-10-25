@@ -46,8 +46,8 @@ class FontawesomeShortcodes {
     *-------------------------------------------------------------------------------------*/
   function add_shortcodes() {
 
-    add_shortcode('fa-icon', array( $this, 'fa_icon' ));
-    add_shortcode('fa-icon-stack', array( $this, 'fa_icon_stack' ));
+    add_shortcode('fa', array( $this, 'fa' ));
+    add_shortcode('fa-stack', array( $this, 'fa_stack' ));
 
   }
 
@@ -58,7 +58,7 @@ class FontawesomeShortcodes {
     * fa_icon
     *
     *-------------------------------------------------------------------------------------*/
-  function fa_icon($atts, $content = null) {
+  function fa($atts, $content = null) {
      extract(shortcode_atts(array(
         "type" => '',
         "size" => false,
@@ -66,11 +66,11 @@ class FontawesomeShortcodes {
         "muted" => false,
         "border" => false,
         "spin" => false,
-        "list-item" => false,
-        "fixed-width" => false,
+        "list_item" => false,
+        "fixed_width" => false,
         "rotate" => false,
         "flip" => false,
-        "stack-size" => false,
+        "stack_size" => false,
         "inverse" => false,
         "xclass" => false
      ), $atts));
@@ -81,11 +81,11 @@ class FontawesomeShortcodes {
      $return .= ($pull) ? ' pull-' . $pull : '';
      $return .= ($border) ? ' fa-border' : '';
      $return .= ($spin) ? ' fa-spin' : '';
-     $return .= ($list-item) ? ' fa-li' : '';
-     $return .= ($fixed-width) ? ' fa-fw' : '';
+     $return .= ($list_item) ? ' fa-li' : '';
+     $return .= ($fixed_width) ? ' fa-fw' : '';
      $return .= ($rotate) ? ' fa-rotate-' . $rotate : '';
      $return .= ($flip) ? ' fa-flip-' . $flip : '';
-     $return .= ($stack-size) ? ' fa-stack-' . $stack-size : '';
+     $return .= ($stack_size) ? ' fa-stack-' . $stack_size : '';
      $return .= ($inverse) ? ' fa-inverse' : '';
      $return .= ($xclass) ? ' ' . $xclass : '';
      $return .= '"></i>';
@@ -101,7 +101,7 @@ class FontawesomeShortcodes {
     * @since 1.0
     *
     *-------------------------------------------------------------------------------------*/
-  function fa_icon_stack( $atts, $content = null ) {
+  function fa_stack( $atts, $content = null ) {
      extract(shortcode_atts(array(
         "size" => false,
         "xclass" => false
