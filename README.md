@@ -38,7 +38,6 @@ Parameter | Description | Required | Values | Default
 --- | --- | --- | --- | ---
 type | The type of icon you want to display | required | See Font Awesome docs | none
 size | Icon size | optional | lg, 2x 3x, 4x, 5x | false
-muted | Whether the font is displayed using the "muted" style | optional | true, false | false
 border | Whether the font is displayed using the "bordered" style | optional | true, false | false
 spin | Whether the font is displayed spinning | optional | true, false | false
 list_item | Set "true" if the icon is within a list item for better spacing | optional | true, false | false
