@@ -6,10 +6,23 @@ This is a plugin for WordPress that adds shortcodes for easier use of the Font A
 ## Requirements
 This plugin won't do anything if you don't have website built with [Font Awesome](http://fortawesome.github.io/Font-Awesome/). **The plugin does not include Font Awesome**.
 
-The plugin is tested to work with ```Font Awesome version 3.2.1``` and ```WordPress 3.6```.
+The plugin is tested to work with ```Font Awesome version 4.0``` and ```WordPress 3.6```.
 
 ## Installation
+
+### Using the command-line
+
+Go to ```wp-content/plugins/``` and enter:
+
+	$ git clone git@github.com:FoolsRun/fontawesome-shortcodes.git
+	$ cd bootstrap-shortcodes/
+	$ git submodule init
+	$ git submodule update
+
+### Manually
 To install this plugin, just download it, and drop the folder in the ```wp-content/plugins/```. Then login to WordPress and activate the plugin.
+
+You'll also have to include the [php-markdown framework](https://github.com/michelf/php-markdown) in the ```bootstrap-shortcodes/php_markdown``` folder. 
 
 ## Supported shortcodes
 
