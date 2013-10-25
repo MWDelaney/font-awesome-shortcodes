@@ -116,8 +116,8 @@ footer {
 @media (max-width: 640px) {
 
 .headline {padding: 75px 0 25px 0;}
-.jumbotron h1 {font-size: 60px;}
-.jumbotron h2 {font-size: 30px;}
+.jumbotron h1 {font-size: 50px;}
+.jumbotron h2 {font-size: 20px;}
 .jumbotron .fa-stack {
         font-size: 6em;
 }
