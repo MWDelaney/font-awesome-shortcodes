@@ -37,7 +37,7 @@ $html = MarkdownExtra::defaultTransform($text);
         $("#selector .panel-body a").click(function() {
             event.preventDefault();
             var icon = $( "i", this ).attr('class').replace('fa fa-', '');
-            var sendto = "[fa-icon type=\"" + icon + "\"]";
+            var sendto = "[fa type=\"" + icon + "\"]";
             var win = window.dialogArguments || opener || parent || top;
             win.send_to_editor(sendto);
         });
