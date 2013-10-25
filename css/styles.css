@@ -96,7 +96,7 @@ footer {
 }
 
 @media (max-width: 991px) {
-
+.screenshot { margin: 0 auto; }
 .featurette-divider {margin: 40px 0;}
 .featurette-image {max-width: 50%;}
 .featurette-image.pull-left {margin-right: 10px;}
@@ -107,7 +107,7 @@ footer {
 
 @media (max-width: 768px) {
 
-.screenshot { margin: 0 auto; }
+
 .container {margin: 0 15px;}
 .featurette-divider {margin: 40px 0;}
 .featurette-heading {font-size: 20px;}
