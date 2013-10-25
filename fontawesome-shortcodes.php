@@ -70,21 +70,23 @@ class FontawesomeShortcodes {
         "fixed-width" => false,
         "rotate" => false,
         "flip" => false,
-        "stack-base" => false,
+        "stack-size" => false,
+        "inverse" => false,
         "xclass" => false
      ), $atts));
 
-     $return  =  '<i class="icon';
-     $return .= ($type) ? ' icon-' . $type : '';
-     $return .= ($size) ? ' icon-' . $size : '';
+     $return  =  '<i class="fa';
+     $return .= ($type) ? ' fa-' . $type : '';
+     $return .= ($size) ? ' fa-' . $size : '';
      $return .= ($pull) ? ' pull-' . $pull : '';
-     $return .= ($border) ? ' icon-border' : '';
-     $return .= ($spin) ? ' icon-spin' : '';
-     $return .= ($list-item) ? ' icon-li' : '';
-     $return .= ($fixed-width) ? ' icon-fixed-width' : '';
-     $return .= ($rotate) ? ' icon-rotate-' . $rotate : '';
-     $return .= ($flip) ? ' icon-flip-' . $flip : '';
-     $return .= ($stack-base) ? ' icon-stack-base' : '';
+     $return .= ($border) ? ' fa-border' : '';
+     $return .= ($spin) ? ' fa-spin' : '';
+     $return .= ($list-item) ? ' fa-li' : '';
+     $return .= ($fixed-width) ? ' fa-fw' : '';
+     $return .= ($rotate) ? ' fa-rotate-' . $rotate : '';
+     $return .= ($flip) ? ' fa-flip-' . $flip : '';
+     $return .= ($stack-size) ? ' fa-stack-' . $stack-size : '';
+     $return .= ($inverse) ? ' fa-inverse' : '';
      $return .= ($xclass) ? ' ' . $xclass : '';
      $return .= '"></i>';
 
@@ -100,7 +102,15 @@ class FontawesomeShortcodes {
     *
     *-------------------------------------------------------------------------------------*/
   function fa_icon_stack( $atts, $content = null ) {
-    return '<span class="icon-stack">' . do_shortcode( $content ) . '</span>';
+     extract(shortcode_atts(array(
+        "size" => false,
+        "xclass" => false
+     ), $atts));
+      
+     $classes  =  'fa-stack';
+     $classes .= ($size) ? ' fa-' . $size : '';
+
+    return '<span class="'. $classes . '">' . do_shortcode( $content ) . '</span>';
 
   }
     
