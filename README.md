@@ -6,7 +6,7 @@ This is a plugin for WordPress that adds shortcodes for easier use of the Font A
 ## Requirements
 This plugin won't do anything if you don't have website built with [Font Awesome](http://fortawesome.github.io/Font-Awesome/). **The plugin does not include Font Awesome**.
 
-The plugin is tested to work with ```Font Awesome version 4.0``` and ```WordPress 3.6```.
+The plugin is tested to work with ```Font Awesome version 4.0``` and ```WordPress 3.7+```.
 
 ## Supported shortcodes
 
