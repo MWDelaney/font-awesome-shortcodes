@@ -10,7 +10,7 @@ add_action('media_buttons_context', 'add_fontawesome_button');
 function add_fontawesome_button($context) {
   
   //path to my icon
-  $img = FA_SHORTCODES_URL . 'images/fontawesome-logo.png';
+  $img = FA_SHORTCODES_URL . 'images/Fontawesome_logo.svg';
   
   //the id of the container I want to show in the popup
   $popup_url = FA_SHORTCODES_URL . 'fontawesome-shortcodes-help.php';
@@ -19,9 +19,9 @@ function add_fontawesome_button($context) {
   $title = 'Font Awesome Shortcodes Help';
 
   //append the icon
-  $context .= "<a class='thickbox' title='{$title}'
-    href='{$popup_url}?TB_iframe=true&width=400'>
-    <img src='{$img}' /></a>";
+  $context .= "<a title='{$title}'
+    href='{$popup_url}?TB_iframe=true&width=450' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Bootstrap Shortcodes Help'>
+    <img src='{$img}' style='height: 20px; position: relative; top: -2px;'></a>";
   
   return $context;
 }
