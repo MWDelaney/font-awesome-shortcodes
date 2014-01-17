@@ -1033,7 +1033,7 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/h-square"><i class="fa fa-h-square"></i> fa-h-square</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/hospital"><i class="fa fa-hospital"></i> fa-hospital</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/hospital-o"><i class="fa fa-hospital-o"></i> fa-hospital-o</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/medkit"><i class="fa fa-medkit"></i> fa-medkit</a></div>
     
