@@ -1,4 +1,5 @@
 <?php
+function fontawesome_shortcodes_help_styles() {
 	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
 	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'fontawesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
 
@@ -7,6 +8,9 @@
 
     wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
 	wp_enqueue_script( 'fontawesome-shortcodes-help' );
+}
+add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_help_styles' );
+
 
 
 add_filter('the_content', 'fa_fix_shortcodes');
