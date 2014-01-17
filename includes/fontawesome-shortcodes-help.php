@@ -1,17 +1,11 @@
 <?php
 
 // We need a function that can add ids to HTML header tags
-function retitle($match) {
-    list($_unused, $h3, $title) = $match;
 
-    $id = strtolower(strtr($title, " .", "--"));
-
-    return "<$h3 id='$id'>$title</$h3>";
-}
-
+$thisfile = realpath(dirname(__FILE__));
 # Install PSR-0-compatible class autoloader
 spl_autoload_register(function($class){
-	require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+    require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
 });
 
 # Get Markdown class
@@ -21,32 +15,22 @@ use \Michelf\MarkdownExtra;
 $text = file_get_contents(dirname(__FILE__) . '/../README.md');
 $html = MarkdownExtra::defaultTransform($text);
 ?>
-<!DOCTYPE html>
-<html>
-    <head>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script>
-    $(document).ready(function() {
-        $("#selector .panel-body a").click(function() {
+    jQuery(document).ready(function() {
+        jQuery("#selector .panel-body a").click(function() {
             event.preventDefault();
-            var icon = $( "i", this ).attr('class').replace('fa fa-', '');
+            var icon = jQuery( "i", this ).attr('class').replace('fa fa-', '');
             var sendto = "[fa type=\"" + icon + "\"]";
             var win = window.dialogArguments || opener || parent || top;
             win.send_to_editor(sendto);
         });
         
-        $(".insert-code").click(function() {
-            var example = $( this ).parent().prev().find("code").text();
+        jQuery(".fa-insert-code").click(function() {
+            var example = jQuery( this ).parent().prev().find("code").text();
             var lines = example.split('\n');
             var paras = '';
-            $.each(lines, function(i, line) {
+            jQuery.each(lines, function(i, line) {
                 if (line) {
                     paras += line + '<br>';
                 }
@@ -57,18 +41,9 @@ $html = MarkdownExtra::defaultTransform($text);
 
     });
 </script>
-<style>
-.fontawesome-icon-list{margin-top:22px}.fontawesome-icon-list .fa-hover a{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}.fontawesome-icon-list .fa-hover a .fa{width:32px;font-size:14px;display:inline-block;text-align:right;margin-right:10px}
-.fontawesome-icon-list .fa-hover a:hover{background-color:#1d9d74;color:#fff;text-decoration:none}.fontawesome-icon-list .fa-hover a:hover .fa{font-size:28px;vertical-align:-6px}
-.fontawesome-icon-list .fa-hover a:hover .text-muted{color:#bbe2d5}  
-    .container {
-        margin-top: 15px;
-    }
-</style>
-        <title>Font Awesome Shortcodes Documentation</title>
-    </head>
-    <body>
-        <div class="container">
+
+<div style="display:none;" id="fontawesome-shortcodes-help-popup">
+    <div id="fontawesome-shortcodes-help">
         <ul class="nav nav-tabs">
             <li class="active"><a href="#selector" data-toggle="tab">Icon Selector</a></li>
             <li><a href="#documentation" data-toggle="tab">Plugin Documentation</a></li>
@@ -76,7 +51,6 @@ $html = MarkdownExtra::defaultTransform($text);
         <div class="tab-content">
       <div class="tab-pane active" id="selector">
           
-          <div class="container">
               <p>Click an icon to automatically insert it into the WordPress editor.</p>
             <div class="panel-group" id="accordion">
                 
@@ -1079,26 +1053,18 @@ $html = MarkdownExtra::defaultTransform($text);
                 
             </div>  
         </div>
-        </div>
             
             <div class="tab-pane" id="documentation">
-                <div class="container">
                 <?php
                     # Put HTML content in the document
                     $html = preg_replace('/(<a href="http:[^"]+")>/is','\\1 target="_blank">',$html);
                     $html = str_replace('<table>', '<table class="table table-striped">', $html);
                     $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "retitle", $html);
-                    $html = str_replace('</pre>', '</pre><p><button class="btn btn-primary btn-sm insert-code">Insert Example <i class="glyphicon glyphfa-share-alt"></i></button></p>', $html);
+                    $html = str_replace('</pre>', '</pre><p><button class="btn btn-primary btn-sm fa-insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
                     echo $html;
                 ?>
-                </div>             
             </div>
         </div>
-        
-        
-
             
-            
-</div> <!-- end container -->
-    </body>
-</html>
+</div>
+</div>
