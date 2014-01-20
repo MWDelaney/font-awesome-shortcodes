@@ -11,8 +11,6 @@ function fontawesome_shortcodes_help_styles() {
 }
 add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_help_styles' );
 
-
-
 add_filter('the_content', 'fa_fix_shortcodes');
 
 // Create a Media Button for the help file
@@ -34,7 +32,7 @@ function add_fontawesome_button($context) {
 
   //append the icon
   $context .= "<a title='{$title}'
-    href='#TB_inline?inlineId={$popup_url}&width=640&height=550' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
+    href='#TB_inline?width=640inlineId={$popup_url}&height=550' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
     <img src='{$img}' style='height: 20px; position: relative; top: -2px;'></a>";
   
   return $context;
