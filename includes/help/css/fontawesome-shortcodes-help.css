@@ -1,0 +1,5964 @@
+  #fontawesome-shortcodes-help .fontawesome-icon-list .fa-hover { font-size: 14px; }
+  #fontawesome-shortcodes-help .fontawesome-icon-list{margin-top:22px}.fontawesome-icon-list .fa-hover a{display:block;color:#222;line-height:32px;height:32px;padding-left:10px;border-radius:4px}.fontawesome-icon-list .fa-hover a .fa{width:32px;font-size:14px;display:inline-block;text-align:right;margin-right:10px}
+  #fontawesome-shortcodes-help .fontawesome-icon-list .fa-hover a:hover{background-color:#1d9d74;color:#fff;text-decoration:none}.fontawesome-icon-list .fa-hover a:hover .fa{font-size:28px;vertical-align:-6px}
+  #fontawesome-shortcodes-help .fontawesome-icon-list .fa-hover a:hover .text-muted{color:#bbe2d5}  
+
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+#fontawesome-shortcodes-help {
+  /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+}
+#fontawesome-shortcodes-help article,
+#fontawesome-shortcodes-help aside,
+#fontawesome-shortcodes-help details,
+#fontawesome-shortcodes-help figcaption,
+#fontawesome-shortcodes-help figure,
+#fontawesome-shortcodes-help footer,
+#fontawesome-shortcodes-help header,
+#fontawesome-shortcodes-help hgroup,
+#fontawesome-shortcodes-help main,
+#fontawesome-shortcodes-help nav,
+#fontawesome-shortcodes-help section,
+#fontawesome-shortcodes-help summary {
+  display: block;
+}
+#fontawesome-shortcodes-help audio,
+#fontawesome-shortcodes-help canvas,
+#fontawesome-shortcodes-help video {
+  display: inline-block;
+}
+#fontawesome-shortcodes-help audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+#fontawesome-shortcodes-help [hidden],
+#fontawesome-shortcodes-help template {
+  display: none;
+}
+#fontawesome-shortcodes-help html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+#fontawesome-shortcodes-help body {
+  margin: 0;
+}
+#fontawesome-shortcodes-help a {
+  background: transparent;
+}
+#fontawesome-shortcodes-help a:focus {
+  outline: thin dotted;
+}
+#fontawesome-shortcodes-help a:active,
+#fontawesome-shortcodes-help a:hover {
+  outline: 0;
+}
+#fontawesome-shortcodes-help h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+#fontawesome-shortcodes-help abbr[title] {
+  border-bottom: 1px dotted;
+}
+#fontawesome-shortcodes-help b,
+#fontawesome-shortcodes-help strong {
+  font-weight: bold;
+}
+#fontawesome-shortcodes-help dfn {
+  font-style: italic;
+}
+#fontawesome-shortcodes-help hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+#fontawesome-shortcodes-help mark {
+  background: #ff0;
+  color: #000;
+}
+#fontawesome-shortcodes-help code,
+#fontawesome-shortcodes-help kbd,
+#fontawesome-shortcodes-help pre,
+#fontawesome-shortcodes-help samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+#fontawesome-shortcodes-help pre {
+  white-space: pre-wrap;
+}
+#fontawesome-shortcodes-help q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+#fontawesome-shortcodes-help small {
+  font-size: 80%;
+}
+#fontawesome-shortcodes-help sub,
+#fontawesome-shortcodes-help sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+#fontawesome-shortcodes-help sup {
+  top: -0.5em;
+}
+#fontawesome-shortcodes-help sub {
+  bottom: -0.25em;
+}
+#fontawesome-shortcodes-help img {
+  border: 0;
+}
+#fontawesome-shortcodes-help svg:not(:root) {
+  overflow: hidden;
+}
+#fontawesome-shortcodes-help figure {
+  margin: 0;
+}
+#fontawesome-shortcodes-help fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+#fontawesome-shortcodes-help legend {
+  border: 0;
+  padding: 0;
+}
+#fontawesome-shortcodes-help button,
+#fontawesome-shortcodes-help input,
+#fontawesome-shortcodes-help select,
+#fontawesome-shortcodes-help textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+#fontawesome-shortcodes-help button,
+#fontawesome-shortcodes-help input {
+  line-height: normal;
+}
+#fontawesome-shortcodes-help button,
+#fontawesome-shortcodes-help select {
+  text-transform: none;
+}
+#fontawesome-shortcodes-help button,
+#fontawesome-shortcodes-help html input[type="button"],
+#fontawesome-shortcodes-help input[type="reset"],
+#fontawesome-shortcodes-help input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+#fontawesome-shortcodes-help button[disabled],
+#fontawesome-shortcodes-help html input[disabled] {
+  cursor: default;
+}
+#fontawesome-shortcodes-help input[type="checkbox"],
+#fontawesome-shortcodes-help input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+#fontawesome-shortcodes-help input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#fontawesome-shortcodes-help input[type="search"]::-webkit-search-cancel-button,
+#fontawesome-shortcodes-help input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#fontawesome-shortcodes-help button::-moz-focus-inner,
+#fontawesome-shortcodes-help input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+#fontawesome-shortcodes-help textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+#fontawesome-shortcodes-help table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media print {
+  #fontawesome-shortcodes-help * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  #fontawesome-shortcodes-help a,
+  #fontawesome-shortcodes-help a:visited {
+    text-decoration: underline;
+  }
+  #fontawesome-shortcodes-help a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  #fontawesome-shortcodes-help abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  #fontawesome-shortcodes-help a[href^="javascript:"]:after,
+  #fontawesome-shortcodes-help a[href^="#"]:after {
+    content: "";
+  }
+  #fontawesome-shortcodes-help pre,
+  #fontawesome-shortcodes-help blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  #fontawesome-shortcodes-help thead {
+    display: table-header-group;
+  }
+  #fontawesome-shortcodes-help tr,
+  #fontawesome-shortcodes-help img {
+    page-break-inside: avoid;
+  }
+  #fontawesome-shortcodes-help img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 2cm .5cm;
+  }
+  #fontawesome-shortcodes-help p,
+  #fontawesome-shortcodes-help h2,
+  #fontawesome-shortcodes-help h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  #fontawesome-shortcodes-help h2,
+  #fontawesome-shortcodes-help h3 {
+    page-break-after: avoid;
+  }
+  #fontawesome-shortcodes-help select {
+    background: #fff !important;
+  }
+  #fontawesome-shortcodes-help .navbar {
+    display: none;
+  }
+  #fontawesome-shortcodes-help .table td,
+  #fontawesome-shortcodes-help .table th {
+    background-color: #fff !important;
+  }
+  #fontawesome-shortcodes-help .btn > .caret,
+  #fontawesome-shortcodes-help .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  #fontawesome-shortcodes-help .label {
+    border: 1px solid #000;
+  }
+  #fontawesome-shortcodes-help .table {
+    border-collapse: collapse !important;
+  }
+  #fontawesome-shortcodes-help .table-bordered th,
+  #fontawesome-shortcodes-help .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+#fontawesome-shortcodes-help *,
+#fontawesome-shortcodes-help *:before,
+#fontawesome-shortcodes-help *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#fontawesome-shortcodes-help html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#fontawesome-shortcodes-help body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+#fontawesome-shortcodes-help input,
+#fontawesome-shortcodes-help button,
+#fontawesome-shortcodes-help select,
+#fontawesome-shortcodes-help textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+#fontawesome-shortcodes-help a {
+  color: #428bca;
+  text-decoration: none;
+}
+#fontawesome-shortcodes-help a:hover,
+#fontawesome-shortcodes-help a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+#fontawesome-shortcodes-help a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#fontawesome-shortcodes-help img {
+  vertical-align: middle;
+}
+#fontawesome-shortcodes-help .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#fontawesome-shortcodes-help .img-rounded {
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+#fontawesome-shortcodes-help .img-circle {
+  border-radius: 50%;
+}
+#fontawesome-shortcodes-help hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+#fontawesome-shortcodes-help .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+#fontawesome-shortcodes-help h1,
+#fontawesome-shortcodes-help h2,
+#fontawesome-shortcodes-help h3,
+#fontawesome-shortcodes-help h4,
+#fontawesome-shortcodes-help h5,
+#fontawesome-shortcodes-help h6,
+#fontawesome-shortcodes-help .h1,
+#fontawesome-shortcodes-help .h2,
+#fontawesome-shortcodes-help .h3,
+#fontawesome-shortcodes-help .h4,
+#fontawesome-shortcodes-help .h5,
+#fontawesome-shortcodes-help .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+#fontawesome-shortcodes-help h1 small,
+#fontawesome-shortcodes-help h2 small,
+#fontawesome-shortcodes-help h3 small,
+#fontawesome-shortcodes-help h4 small,
+#fontawesome-shortcodes-help h5 small,
+#fontawesome-shortcodes-help h6 small,
+#fontawesome-shortcodes-help .h1 small,
+#fontawesome-shortcodes-help .h2 small,
+#fontawesome-shortcodes-help .h3 small,
+#fontawesome-shortcodes-help .h4 small,
+#fontawesome-shortcodes-help .h5 small,
+#fontawesome-shortcodes-help .h6 small,
+#fontawesome-shortcodes-help h1 .small,
+#fontawesome-shortcodes-help h2 .small,
+#fontawesome-shortcodes-help h3 .small,
+#fontawesome-shortcodes-help h4 .small,
+#fontawesome-shortcodes-help h5 .small,
+#fontawesome-shortcodes-help h6 .small,
+#fontawesome-shortcodes-help .h1 .small,
+#fontawesome-shortcodes-help .h2 .small,
+#fontawesome-shortcodes-help .h3 .small,
+#fontawesome-shortcodes-help .h4 .small,
+#fontawesome-shortcodes-help .h5 .small,
+#fontawesome-shortcodes-help .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+#fontawesome-shortcodes-help h1,
+#fontawesome-shortcodes-help h2,
+#fontawesome-shortcodes-help h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#fontawesome-shortcodes-help h1 small,
+#fontawesome-shortcodes-help h2 small,
+#fontawesome-shortcodes-help h3 small,
+#fontawesome-shortcodes-help h1 .small,
+#fontawesome-shortcodes-help h2 .small,
+#fontawesome-shortcodes-help h3 .small {
+  font-size: 65%;
+}
+#fontawesome-shortcodes-help h4,
+#fontawesome-shortcodes-help h5,
+#fontawesome-shortcodes-help h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fontawesome-shortcodes-help h4 small,
+#fontawesome-shortcodes-help h5 small,
+#fontawesome-shortcodes-help h6 small,
+#fontawesome-shortcodes-help h4 .small,
+#fontawesome-shortcodes-help h5 .small,
+#fontawesome-shortcodes-help h6 .small {
+  font-size: 75%;
+}
+#fontawesome-shortcodes-help h1,
+#fontawesome-shortcodes-help .h1 {
+  font-size: 36px;
+}
+#fontawesome-shortcodes-help h2,
+#fontawesome-shortcodes-help .h2 {
+  font-size: 30px;
+}
+#fontawesome-shortcodes-help h3,
+#fontawesome-shortcodes-help .h3 {
+  font-size: 24px;
+}
+#fontawesome-shortcodes-help h4,
+#fontawesome-shortcodes-help .h4 {
+  font-size: 18px;
+}
+#fontawesome-shortcodes-help h5,
+#fontawesome-shortcodes-help .h5 {
+  font-size: 14px;
+}
+#fontawesome-shortcodes-help h6,
+#fontawesome-shortcodes-help .h6 {
+  font-size: 12px;
+}
+#fontawesome-shortcodes-help p {
+  margin: 0 0 10px;
+}
+#fontawesome-shortcodes-help .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .lead {
+    font-size: 21px;
+  }
+}
+#fontawesome-shortcodes-help small,
+#fontawesome-shortcodes-help .small {
+  font-size: 85%;
+}
+#fontawesome-shortcodes-help cite {
+  font-style: normal;
+}
+#fontawesome-shortcodes-help .text-muted {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .text-primary {
+  color: #428bca;
+}
+#fontawesome-shortcodes-help .text-primary:hover {
+  color: #3071a9;
+}
+#fontawesome-shortcodes-help .text-warning {
+  color: #8a6d3b;
+}
+#fontawesome-shortcodes-help .text-warning:hover {
+  color: #66512c;
+}
+#fontawesome-shortcodes-help .text-danger {
+  color: #a94442;
+}
+#fontawesome-shortcodes-help .text-danger:hover {
+  color: #843534;
+}
+#fontawesome-shortcodes-help .text-success {
+  color: #3c763d;
+}
+#fontawesome-shortcodes-help .text-success:hover {
+  color: #2b542c;
+}
+#fontawesome-shortcodes-help .text-info {
+  color: #31708f;
+}
+#fontawesome-shortcodes-help .text-info:hover {
+  color: #245269;
+}
+#fontawesome-shortcodes-help .text-left {
+  text-align: left;
+}
+#fontawesome-shortcodes-help .text-right {
+  text-align: right;
+}
+#fontawesome-shortcodes-help .text-center {
+  text-align: center;
+}
+#fontawesome-shortcodes-help .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+#fontawesome-shortcodes-help ul,
+#fontawesome-shortcodes-help ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#fontawesome-shortcodes-help ul ul,
+#fontawesome-shortcodes-help ol ul,
+#fontawesome-shortcodes-help ul ol,
+#fontawesome-shortcodes-help ol ol {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+#fontawesome-shortcodes-help .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+#fontawesome-shortcodes-help .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#fontawesome-shortcodes-help .list-inline > li:first-child {
+  padding-left: 0;
+}
+#fontawesome-shortcodes-help dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#fontawesome-shortcodes-help dt,
+#fontawesome-shortcodes-help dd {
+  line-height: 1.428571429;
+}
+#fontawesome-shortcodes-help dt {
+  font-weight: bold;
+}
+#fontawesome-shortcodes-help dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #fontawesome-shortcodes-help .dl-horizontal dd {
+    margin-left: 180px;
+  }
+  #fontawesome-shortcodes-help .dl-horizontal dd:before,
+  #fontawesome-shortcodes-help .dl-horizontal dd:after {
+    content: " ";
+    display: table;
+  }
+  #fontawesome-shortcodes-help .dl-horizontal dd:after {
+    clear: both;
+  }
+  #fontawesome-shortcodes-help .dl-horizontal dd:before,
+  #fontawesome-shortcodes-help .dl-horizontal dd:after {
+    content: " ";
+    display: table;
+  }
+  #fontawesome-shortcodes-help .dl-horizontal dd:after {
+    clear: both;
+  }
+}
+#fontawesome-shortcodes-help abbr[title],
+#fontawesome-shortcodes-help abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+#fontawesome-shortcodes-help .initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+#fontawesome-shortcodes-help blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+#fontawesome-shortcodes-help blockquote p {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+#fontawesome-shortcodes-help blockquote p:last-child {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help blockquote small,
+#fontawesome-shortcodes-help blockquote .small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999999;
+}
+#fontawesome-shortcodes-help blockquote small:before,
+#fontawesome-shortcodes-help blockquote .small:before {
+  content: '\2014 \00A0';
+}
+#fontawesome-shortcodes-help blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+#fontawesome-shortcodes-help blockquote.pull-right p,
+#fontawesome-shortcodes-help blockquote.pull-right small,
+#fontawesome-shortcodes-help blockquote.pull-right .small {
+  text-align: right;
+}
+#fontawesome-shortcodes-help blockquote.pull-right small:before,
+#fontawesome-shortcodes-help blockquote.pull-right .small:before {
+  content: '';
+}
+#fontawesome-shortcodes-help blockquote.pull-right small:after,
+#fontawesome-shortcodes-help blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+#fontawesome-shortcodes-help blockquote:before,
+#fontawesome-shortcodes-help blockquote:after {
+  content: "";
+}
+#fontawesome-shortcodes-help address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.428571429;
+}
+#fontawesome-shortcodes-help code,
+#fontawesome-shortcodes-help kbd,
+#fontawesome-shortcodes-help pre,
+#fontawesome-shortcodes-help samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+#fontawesome-shortcodes-help code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+#fontawesome-shortcodes-help .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#fontawesome-shortcodes-help .container:before,
+#fontawesome-shortcodes-help .container:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .container:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .container:before,
+#fontawesome-shortcodes-help .container:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .container:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #fontawesome-shortcodes-help .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .container {
+    width: 1170px;
+  }
+}
+#fontawesome-shortcodes-help .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#fontawesome-shortcodes-help .row:before,
+#fontawesome-shortcodes-help .row:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .row:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .row:before,
+#fontawesome-shortcodes-help .row:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .row:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#fontawesome-shortcodes-help .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+#fontawesome-shortcodes-help .col-xs-12 {
+  width: 100%;
+}
+#fontawesome-shortcodes-help .col-xs-11 {
+  width: 91.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-10 {
+  width: 83.33333333333334%;
+}
+#fontawesome-shortcodes-help .col-xs-9 {
+  width: 75%;
+}
+#fontawesome-shortcodes-help .col-xs-8 {
+  width: 66.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-7 {
+  width: 58.333333333333336%;
+}
+#fontawesome-shortcodes-help .col-xs-6 {
+  width: 50%;
+}
+#fontawesome-shortcodes-help .col-xs-5 {
+  width: 41.66666666666667%;
+}
+#fontawesome-shortcodes-help .col-xs-4 {
+  width: 33.33333333333333%;
+}
+#fontawesome-shortcodes-help .col-xs-3 {
+  width: 25%;
+}
+#fontawesome-shortcodes-help .col-xs-2 {
+  width: 16.666666666666664%;
+}
+#fontawesome-shortcodes-help .col-xs-1 {
+  width: 8.333333333333332%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-12 {
+  right: 100%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-11 {
+  right: 91.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-10 {
+  right: 83.33333333333334%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-9 {
+  right: 75%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-8 {
+  right: 66.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-7 {
+  right: 58.333333333333336%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-6 {
+  right: 50%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-5 {
+  right: 41.66666666666667%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-4 {
+  right: 33.33333333333333%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-3 {
+  right: 25%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-2 {
+  right: 16.666666666666664%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-1 {
+  right: 8.333333333333332%;
+}
+#fontawesome-shortcodes-help .col-xs-pull-0 {
+  right: 0%;
+}
+#fontawesome-shortcodes-help .col-xs-push-12 {
+  left: 100%;
+}
+#fontawesome-shortcodes-help .col-xs-push-11 {
+  left: 91.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-push-10 {
+  left: 83.33333333333334%;
+}
+#fontawesome-shortcodes-help .col-xs-push-9 {
+  left: 75%;
+}
+#fontawesome-shortcodes-help .col-xs-push-8 {
+  left: 66.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-push-7 {
+  left: 58.333333333333336%;
+}
+#fontawesome-shortcodes-help .col-xs-push-6 {
+  left: 50%;
+}
+#fontawesome-shortcodes-help .col-xs-push-5 {
+  left: 41.66666666666667%;
+}
+#fontawesome-shortcodes-help .col-xs-push-4 {
+  left: 33.33333333333333%;
+}
+#fontawesome-shortcodes-help .col-xs-push-3 {
+  left: 25%;
+}
+#fontawesome-shortcodes-help .col-xs-push-2 {
+  left: 16.666666666666664%;
+}
+#fontawesome-shortcodes-help .col-xs-push-1 {
+  left: 8.333333333333332%;
+}
+#fontawesome-shortcodes-help .col-xs-push-0 {
+  left: 0%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-12 {
+  margin-left: 100%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-9 {
+  margin-left: 75%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-6 {
+  margin-left: 50%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-3 {
+  margin-left: 25%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+#fontawesome-shortcodes-help .col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  #fontawesome-shortcodes-help .col-sm-12 {
+    width: 100%;
+  }
+  #fontawesome-shortcodes-help .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-sm-9 {
+    width: 75%;
+  }
+  #fontawesome-shortcodes-help .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-sm-6 {
+    width: 50%;
+  }
+  #fontawesome-shortcodes-help .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-sm-3 {
+    width: 25%;
+  }
+  #fontawesome-shortcodes-help .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-12 {
+    right: 100%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-9 {
+    right: 75%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-6 {
+    right: 50%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-3 {
+    right: 25%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-sm-pull-0 {
+    right: 0%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-12 {
+    left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-9 {
+    left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-6 {
+    left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-3 {
+    left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-sm-push-0 {
+    left: 0%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  #fontawesome-shortcodes-help .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  #fontawesome-shortcodes-help .col-md-12 {
+    width: 100%;
+  }
+  #fontawesome-shortcodes-help .col-md-11 {
+    width: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-10 {
+    width: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-md-9 {
+    width: 75%;
+  }
+  #fontawesome-shortcodes-help .col-md-8 {
+    width: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-7 {
+    width: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-md-6 {
+    width: 50%;
+  }
+  #fontawesome-shortcodes-help .col-md-5 {
+    width: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-md-4 {
+    width: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-md-3 {
+    width: 25%;
+  }
+  #fontawesome-shortcodes-help .col-md-2 {
+    width: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-md-1 {
+    width: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-12 {
+    right: 100%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-9 {
+    right: 75%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-6 {
+    right: 50%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-3 {
+    right: 25%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-md-pull-0 {
+    right: 0%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-12 {
+    left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-9 {
+    left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-6 {
+    left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-3 {
+    left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-md-push-0 {
+    left: 0%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  #fontawesome-shortcodes-help .col-lg-12 {
+    width: 100%;
+  }
+  #fontawesome-shortcodes-help .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-lg-9 {
+    width: 75%;
+  }
+  #fontawesome-shortcodes-help .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-lg-6 {
+    width: 50%;
+  }
+  #fontawesome-shortcodes-help .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-lg-3 {
+    width: 25%;
+  }
+  #fontawesome-shortcodes-help .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-12 {
+    right: 100%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-9 {
+    right: 75%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-6 {
+    right: 50%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-3 {
+    right: 25%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-lg-pull-0 {
+    right: 0%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-12 {
+    left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-9 {
+    left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-6 {
+    left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-3 {
+    left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-lg-push-0 {
+    left: 0%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #fontawesome-shortcodes-help .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+#fontawesome-shortcodes-help table {
+  max-width: 100%;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help th {
+  text-align: left;
+}
+#fontawesome-shortcodes-help .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#fontawesome-shortcodes-help .table > thead > tr > th,
+#fontawesome-shortcodes-help .table > tbody > tr > th,
+#fontawesome-shortcodes-help .table > tfoot > tr > th,
+#fontawesome-shortcodes-help .table > thead > tr > td,
+#fontawesome-shortcodes-help .table > tbody > tr > td,
+#fontawesome-shortcodes-help .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+#fontawesome-shortcodes-help .table > caption + thead > tr:first-child > th,
+#fontawesome-shortcodes-help .table > colgroup + thead > tr:first-child > th,
+#fontawesome-shortcodes-help .table > thead:first-child > tr:first-child > th,
+#fontawesome-shortcodes-help .table > caption + thead > tr:first-child > td,
+#fontawesome-shortcodes-help .table > colgroup + thead > tr:first-child > td,
+#fontawesome-shortcodes-help .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+#fontawesome-shortcodes-help .table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+#fontawesome-shortcodes-help .table .table {
+  background-color: #ffffff;
+}
+#fontawesome-shortcodes-help .table-condensed > thead > tr > th,
+#fontawesome-shortcodes-help .table-condensed > tbody > tr > th,
+#fontawesome-shortcodes-help .table-condensed > tfoot > tr > th,
+#fontawesome-shortcodes-help .table-condensed > thead > tr > td,
+#fontawesome-shortcodes-help .table-condensed > tbody > tr > td,
+#fontawesome-shortcodes-help .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+#fontawesome-shortcodes-help .table-bordered {
+  border: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .table-bordered > thead > tr > th,
+#fontawesome-shortcodes-help .table-bordered > tbody > tr > th,
+#fontawesome-shortcodes-help .table-bordered > tfoot > tr > th,
+#fontawesome-shortcodes-help .table-bordered > thead > tr > td,
+#fontawesome-shortcodes-help .table-bordered > tbody > tr > td,
+#fontawesome-shortcodes-help .table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .table-bordered > thead > tr > th,
+#fontawesome-shortcodes-help .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+#fontawesome-shortcodes-help .table-striped > tbody > tr:nth-child(odd) > td,
+#fontawesome-shortcodes-help .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+#fontawesome-shortcodes-help .table-hover > tbody > tr:hover > td,
+#fontawesome-shortcodes-help .table-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+#fontawesome-shortcodes-help table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+#fontawesome-shortcodes-help table td[class*="col-"],
+#fontawesome-shortcodes-help table th[class*="col-"] {
+  float: none;
+  display: table-cell;
+}
+#fontawesome-shortcodes-help .table > thead > tr > .active,
+#fontawesome-shortcodes-help .table > tbody > tr > .active,
+#fontawesome-shortcodes-help .table > tfoot > tr > .active,
+#fontawesome-shortcodes-help .table > thead > .active > td,
+#fontawesome-shortcodes-help .table > tbody > .active > td,
+#fontawesome-shortcodes-help .table > tfoot > .active > td,
+#fontawesome-shortcodes-help .table > thead > .active > th,
+#fontawesome-shortcodes-help .table > tbody > .active > th,
+#fontawesome-shortcodes-help .table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+#fontawesome-shortcodes-help .table-hover > tbody > tr > .active:hover,
+#fontawesome-shortcodes-help .table-hover > tbody > .active:hover > td,
+#fontawesome-shortcodes-help .table-hover > tbody > .active:hover > th {
+  background-color: #e8e8e8;
+}
+#fontawesome-shortcodes-help .table > thead > tr > .success,
+#fontawesome-shortcodes-help .table > tbody > tr > .success,
+#fontawesome-shortcodes-help .table > tfoot > tr > .success,
+#fontawesome-shortcodes-help .table > thead > .success > td,
+#fontawesome-shortcodes-help .table > tbody > .success > td,
+#fontawesome-shortcodes-help .table > tfoot > .success > td,
+#fontawesome-shortcodes-help .table > thead > .success > th,
+#fontawesome-shortcodes-help .table > tbody > .success > th,
+#fontawesome-shortcodes-help .table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+#fontawesome-shortcodes-help .table-hover > tbody > tr > .success:hover,
+#fontawesome-shortcodes-help .table-hover > tbody > .success:hover > td,
+#fontawesome-shortcodes-help .table-hover > tbody > .success:hover > th {
+  background-color: #d0e9c6;
+}
+#fontawesome-shortcodes-help .table > thead > tr > .danger,
+#fontawesome-shortcodes-help .table > tbody > tr > .danger,
+#fontawesome-shortcodes-help .table > tfoot > tr > .danger,
+#fontawesome-shortcodes-help .table > thead > .danger > td,
+#fontawesome-shortcodes-help .table > tbody > .danger > td,
+#fontawesome-shortcodes-help .table > tfoot > .danger > td,
+#fontawesome-shortcodes-help .table > thead > .danger > th,
+#fontawesome-shortcodes-help .table > tbody > .danger > th,
+#fontawesome-shortcodes-help .table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+#fontawesome-shortcodes-help .table-hover > tbody > tr > .danger:hover,
+#fontawesome-shortcodes-help .table-hover > tbody > .danger:hover > td,
+#fontawesome-shortcodes-help .table-hover > tbody > .danger:hover > th {
+  background-color: #ebcccc;
+}
+#fontawesome-shortcodes-help .table > thead > tr > .warning,
+#fontawesome-shortcodes-help .table > tbody > tr > .warning,
+#fontawesome-shortcodes-help .table > tfoot > tr > .warning,
+#fontawesome-shortcodes-help .table > thead > .warning > td,
+#fontawesome-shortcodes-help .table > tbody > .warning > td,
+#fontawesome-shortcodes-help .table > tfoot > .warning > td,
+#fontawesome-shortcodes-help .table > thead > .warning > th,
+#fontawesome-shortcodes-help .table > tbody > .warning > th,
+#fontawesome-shortcodes-help .table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+#fontawesome-shortcodes-help .table-hover > tbody > tr > .warning:hover,
+#fontawesome-shortcodes-help .table-hover > tbody > .warning:hover > td,
+#fontawesome-shortcodes-help .table-hover > tbody > .warning:hover > th {
+  background-color: #faf2cc;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+    -webkit-overflow-scrolling: touch;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table > thead > tr > th,
+  #fontawesome-shortcodes-help .table-responsive > .table > tbody > tr > th,
+  #fontawesome-shortcodes-help .table-responsive > .table > tfoot > tr > th,
+  #fontawesome-shortcodes-help .table-responsive > .table > thead > tr > td,
+  #fontawesome-shortcodes-help .table-responsive > .table > tbody > tr > td,
+  #fontawesome-shortcodes-help .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered {
+    border: 0;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > thead > tr > th:first-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > thead > tr > td:first-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > thead > tr > th:last-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > thead > tr > td:last-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  #fontawesome-shortcodes-help .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+#fontawesome-shortcodes-help fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#fontawesome-shortcodes-help legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#fontawesome-shortcodes-help label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#fontawesome-shortcodes-help input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#fontawesome-shortcodes-help input[type="radio"],
+#fontawesome-shortcodes-help input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+#fontawesome-shortcodes-help input[type="file"] {
+  display: block;
+}
+#fontawesome-shortcodes-help select[multiple],
+#fontawesome-shortcodes-help select[size] {
+  height: auto;
+}
+#fontawesome-shortcodes-help select optgroup {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+#fontawesome-shortcodes-help input[type="file"]:focus,
+#fontawesome-shortcodes-help input[type="radio"]:focus,
+#fontawesome-shortcodes-help input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#fontawesome-shortcodes-help input[type="number"]::-webkit-outer-spin-button,
+#fontawesome-shortcodes-help input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+#fontawesome-shortcodes-help output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+}
+#fontawesome-shortcodes-help .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#fontawesome-shortcodes-help .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#fontawesome-shortcodes-help .form-control:-moz-placeholder {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+#fontawesome-shortcodes-help .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .form-control[disabled],
+#fontawesome-shortcodes-help .form-control[readonly],
+fieldset[disabled] #fontawesome-shortcodes-help .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+textarea#fontawesome-shortcodes-help .form-control {
+  height: auto;
+}
+#fontawesome-shortcodes-help .form-group {
+  margin-bottom: 15px;
+}
+#fontawesome-shortcodes-help .radio,
+#fontawesome-shortcodes-help .checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+#fontawesome-shortcodes-help .radio label,
+#fontawesome-shortcodes-help .checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+#fontawesome-shortcodes-help .radio input[type="radio"],
+#fontawesome-shortcodes-help .radio-inline input[type="radio"],
+#fontawesome-shortcodes-help .checkbox input[type="checkbox"],
+#fontawesome-shortcodes-help .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+#fontawesome-shortcodes-help .radio + .radio,
+#fontawesome-shortcodes-help .checkbox + .checkbox {
+  margin-top: -5px;
+}
+#fontawesome-shortcodes-help .radio-inline,
+#fontawesome-shortcodes-help .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+#fontawesome-shortcodes-help .radio-inline + .radio-inline,
+#fontawesome-shortcodes-help .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+#fontawesome-shortcodes-help input[type="radio"][disabled],
+#fontawesome-shortcodes-help input[type="checkbox"][disabled],
+#fontawesome-shortcodes-help .radio[disabled],
+#fontawesome-shortcodes-help .radio-inline[disabled],
+#fontawesome-shortcodes-help .checkbox[disabled],
+#fontawesome-shortcodes-help .checkbox-inline[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help input[type="radio"],
+fieldset[disabled] #fontawesome-shortcodes-help input[type="checkbox"],
+fieldset[disabled] #fontawesome-shortcodes-help .radio,
+fieldset[disabled] #fontawesome-shortcodes-help .radio-inline,
+fieldset[disabled] #fontawesome-shortcodes-help .checkbox,
+fieldset[disabled] #fontawesome-shortcodes-help .checkbox-inline {
+  cursor: not-allowed;
+}
+#fontawesome-shortcodes-help .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select#fontawesome-shortcodes-help .input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+textarea#fontawesome-shortcodes-help .input-sm {
+  height: auto;
+}
+#fontawesome-shortcodes-help .input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select#fontawesome-shortcodes-help .input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+textarea#fontawesome-shortcodes-help .input-lg {
+  height: auto;
+}
+#fontawesome-shortcodes-help .has-warning .help-block,
+#fontawesome-shortcodes-help .has-warning .control-label,
+#fontawesome-shortcodes-help .has-warning .radio,
+#fontawesome-shortcodes-help .has-warning .checkbox,
+#fontawesome-shortcodes-help .has-warning .radio-inline,
+#fontawesome-shortcodes-help .has-warning .checkbox-inline {
+  color: #8a6d3b;
+}
+#fontawesome-shortcodes-help .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#fontawesome-shortcodes-help .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+#fontawesome-shortcodes-help .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+#fontawesome-shortcodes-help .has-error .help-block,
+#fontawesome-shortcodes-help .has-error .control-label,
+#fontawesome-shortcodes-help .has-error .radio,
+#fontawesome-shortcodes-help .has-error .checkbox,
+#fontawesome-shortcodes-help .has-error .radio-inline,
+#fontawesome-shortcodes-help .has-error .checkbox-inline {
+  color: #a94442;
+}
+#fontawesome-shortcodes-help .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#fontawesome-shortcodes-help .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+#fontawesome-shortcodes-help .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+#fontawesome-shortcodes-help .has-success .help-block,
+#fontawesome-shortcodes-help .has-success .control-label,
+#fontawesome-shortcodes-help .has-success .radio,
+#fontawesome-shortcodes-help .has-success .checkbox,
+#fontawesome-shortcodes-help .has-success .radio-inline,
+#fontawesome-shortcodes-help .has-success .checkbox-inline {
+  color: #3c763d;
+}
+#fontawesome-shortcodes-help .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#fontawesome-shortcodes-help .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+#fontawesome-shortcodes-help .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+#fontawesome-shortcodes-help .form-control-static {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #fontawesome-shortcodes-help .form-inline .form-control {
+    display: inline-block;
+  }
+  #fontawesome-shortcodes-help .form-inline select.form-control {
+    width: auto;
+  }
+  #fontawesome-shortcodes-help .form-inline .radio,
+  #fontawesome-shortcodes-help .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  #fontawesome-shortcodes-help .form-inline .radio input[type="radio"],
+  #fontawesome-shortcodes-help .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+#fontawesome-shortcodes-help .form-horizontal .control-label,
+#fontawesome-shortcodes-help .form-horizontal .radio,
+#fontawesome-shortcodes-help .form-horizontal .checkbox,
+#fontawesome-shortcodes-help .form-horizontal .radio-inline,
+#fontawesome-shortcodes-help .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+#fontawesome-shortcodes-help .form-horizontal .radio,
+#fontawesome-shortcodes-help .form-horizontal .checkbox {
+  min-height: 27px;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-group:before,
+#fontawesome-shortcodes-help .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-group:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-group:before,
+#fontawesome-shortcodes-help .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-group:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .form-horizontal .form-control-static {
+  padding-top: 7px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+#fontawesome-shortcodes-help .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#fontawesome-shortcodes-help .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#fontawesome-shortcodes-help .btn:hover,
+#fontawesome-shortcodes-help .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+#fontawesome-shortcodes-help .btn:active,
+#fontawesome-shortcodes-help .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#fontawesome-shortcodes-help .btn.disabled,
+#fontawesome-shortcodes-help .btn[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#fontawesome-shortcodes-help .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#fontawesome-shortcodes-help .btn-default:hover,
+#fontawesome-shortcodes-help .btn-default:focus,
+#fontawesome-shortcodes-help .btn-default:active,
+#fontawesome-shortcodes-help .btn-default.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+#fontawesome-shortcodes-help .btn-default:active,
+#fontawesome-shortcodes-help .btn-default.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-default {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-default.disabled,
+#fontawesome-shortcodes-help .btn-default[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-default,
+#fontawesome-shortcodes-help .btn-default.disabled:hover,
+#fontawesome-shortcodes-help .btn-default[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-default:hover,
+#fontawesome-shortcodes-help .btn-default.disabled:focus,
+#fontawesome-shortcodes-help .btn-default[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-default:focus,
+#fontawesome-shortcodes-help .btn-default.disabled:active,
+#fontawesome-shortcodes-help .btn-default[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-default:active,
+#fontawesome-shortcodes-help .btn-default.disabled.active,
+#fontawesome-shortcodes-help .btn-default[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#fontawesome-shortcodes-help .btn-default .badge {
+  color: #ffffff;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#fontawesome-shortcodes-help .btn-primary:hover,
+#fontawesome-shortcodes-help .btn-primary:focus,
+#fontawesome-shortcodes-help .btn-primary:active,
+#fontawesome-shortcodes-help .btn-primary.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+#fontawesome-shortcodes-help .btn-primary:active,
+#fontawesome-shortcodes-help .btn-primary.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-primary {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-primary.disabled,
+#fontawesome-shortcodes-help .btn-primary[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-primary,
+#fontawesome-shortcodes-help .btn-primary.disabled:hover,
+#fontawesome-shortcodes-help .btn-primary[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-primary:hover,
+#fontawesome-shortcodes-help .btn-primary.disabled:focus,
+#fontawesome-shortcodes-help .btn-primary[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-primary:focus,
+#fontawesome-shortcodes-help .btn-primary.disabled:active,
+#fontawesome-shortcodes-help .btn-primary[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-primary:active,
+#fontawesome-shortcodes-help .btn-primary.disabled.active,
+#fontawesome-shortcodes-help .btn-primary[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#fontawesome-shortcodes-help .btn-primary .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#fontawesome-shortcodes-help .btn-warning:hover,
+#fontawesome-shortcodes-help .btn-warning:focus,
+#fontawesome-shortcodes-help .btn-warning:active,
+#fontawesome-shortcodes-help .btn-warning.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+#fontawesome-shortcodes-help .btn-warning:active,
+#fontawesome-shortcodes-help .btn-warning.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-warning {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-warning.disabled,
+#fontawesome-shortcodes-help .btn-warning[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-warning,
+#fontawesome-shortcodes-help .btn-warning.disabled:hover,
+#fontawesome-shortcodes-help .btn-warning[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-warning:hover,
+#fontawesome-shortcodes-help .btn-warning.disabled:focus,
+#fontawesome-shortcodes-help .btn-warning[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-warning:focus,
+#fontawesome-shortcodes-help .btn-warning.disabled:active,
+#fontawesome-shortcodes-help .btn-warning[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-warning:active,
+#fontawesome-shortcodes-help .btn-warning.disabled.active,
+#fontawesome-shortcodes-help .btn-warning[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#fontawesome-shortcodes-help .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#fontawesome-shortcodes-help .btn-danger:hover,
+#fontawesome-shortcodes-help .btn-danger:focus,
+#fontawesome-shortcodes-help .btn-danger:active,
+#fontawesome-shortcodes-help .btn-danger.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+#fontawesome-shortcodes-help .btn-danger:active,
+#fontawesome-shortcodes-help .btn-danger.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-danger {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-danger.disabled,
+#fontawesome-shortcodes-help .btn-danger[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-danger,
+#fontawesome-shortcodes-help .btn-danger.disabled:hover,
+#fontawesome-shortcodes-help .btn-danger[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-danger:hover,
+#fontawesome-shortcodes-help .btn-danger.disabled:focus,
+#fontawesome-shortcodes-help .btn-danger[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-danger:focus,
+#fontawesome-shortcodes-help .btn-danger.disabled:active,
+#fontawesome-shortcodes-help .btn-danger[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-danger:active,
+#fontawesome-shortcodes-help .btn-danger.disabled.active,
+#fontawesome-shortcodes-help .btn-danger[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#fontawesome-shortcodes-help .btn-danger .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#fontawesome-shortcodes-help .btn-success:hover,
+#fontawesome-shortcodes-help .btn-success:focus,
+#fontawesome-shortcodes-help .btn-success:active,
+#fontawesome-shortcodes-help .btn-success.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+#fontawesome-shortcodes-help .btn-success:active,
+#fontawesome-shortcodes-help .btn-success.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-success {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-success.disabled,
+#fontawesome-shortcodes-help .btn-success[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-success,
+#fontawesome-shortcodes-help .btn-success.disabled:hover,
+#fontawesome-shortcodes-help .btn-success[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-success:hover,
+#fontawesome-shortcodes-help .btn-success.disabled:focus,
+#fontawesome-shortcodes-help .btn-success[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-success:focus,
+#fontawesome-shortcodes-help .btn-success.disabled:active,
+#fontawesome-shortcodes-help .btn-success[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-success:active,
+#fontawesome-shortcodes-help .btn-success.disabled.active,
+#fontawesome-shortcodes-help .btn-success[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#fontawesome-shortcodes-help .btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#fontawesome-shortcodes-help .btn-info:hover,
+#fontawesome-shortcodes-help .btn-info:focus,
+#fontawesome-shortcodes-help .btn-info:active,
+#fontawesome-shortcodes-help .btn-info.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+#fontawesome-shortcodes-help .btn-info:active,
+#fontawesome-shortcodes-help .btn-info.active,
+.open .dropdown-toggle#fontawesome-shortcodes-help .btn-info {
+  background-image: none;
+}
+#fontawesome-shortcodes-help .btn-info.disabled,
+#fontawesome-shortcodes-help .btn-info[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-info,
+#fontawesome-shortcodes-help .btn-info.disabled:hover,
+#fontawesome-shortcodes-help .btn-info[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-info:hover,
+#fontawesome-shortcodes-help .btn-info.disabled:focus,
+#fontawesome-shortcodes-help .btn-info[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-info:focus,
+#fontawesome-shortcodes-help .btn-info.disabled:active,
+#fontawesome-shortcodes-help .btn-info[disabled]:active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-info:active,
+#fontawesome-shortcodes-help .btn-info.disabled.active,
+#fontawesome-shortcodes-help .btn-info[disabled].active,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#fontawesome-shortcodes-help .btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+#fontawesome-shortcodes-help .btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-link,
+#fontawesome-shortcodes-help .btn-link:active,
+#fontawesome-shortcodes-help .btn-link[disabled],
+fieldset[disabled] #fontawesome-shortcodes-help .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#fontawesome-shortcodes-help .btn-link,
+#fontawesome-shortcodes-help .btn-link:hover,
+#fontawesome-shortcodes-help .btn-link:focus,
+#fontawesome-shortcodes-help .btn-link:active {
+  border-color: transparent;
+}
+#fontawesome-shortcodes-help .btn-link:hover,
+#fontawesome-shortcodes-help .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .btn-link[disabled]:hover,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-link:hover,
+#fontawesome-shortcodes-help .btn-link[disabled]:focus,
+fieldset[disabled] #fontawesome-shortcodes-help .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+#fontawesome-shortcodes-help .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+#fontawesome-shortcodes-help .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#fontawesome-shortcodes-help input[type="submit"].btn-block,
+#fontawesome-shortcodes-help input[type="reset"].btn-block,
+#fontawesome-shortcodes-help input[type="button"].btn-block {
+  width: 100%;
+}
+#fontawesome-shortcodes-help .fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+#fontawesome-shortcodes-help .fade.in {
+  opacity: 1;
+}
+#fontawesome-shortcodes-help .collapse {
+  display: none;
+}
+#fontawesome-shortcodes-help .collapse.in {
+  display: block;
+}
+#fontawesome-shortcodes-help .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+#fontawesome-shortcodes-help .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#fontawesome-shortcodes-help .glyphicon:empty {
+  width: 1em;
+}
+#fontawesome-shortcodes-help .glyphicon-asterisk:before {
+  content: "\2a";
+}
+#fontawesome-shortcodes-help .glyphicon-plus:before {
+  content: "\2b";
+}
+#fontawesome-shortcodes-help .glyphicon-euro:before {
+  content: "\20ac";
+}
+#fontawesome-shortcodes-help .glyphicon-minus:before {
+  content: "\2212";
+}
+#fontawesome-shortcodes-help .glyphicon-cloud:before {
+  content: "\2601";
+}
+#fontawesome-shortcodes-help .glyphicon-envelope:before {
+  content: "\2709";
+}
+#fontawesome-shortcodes-help .glyphicon-pencil:before {
+  content: "\270f";
+}
+#fontawesome-shortcodes-help .glyphicon-glass:before {
+  content: "\e001";
+}
+#fontawesome-shortcodes-help .glyphicon-music:before {
+  content: "\e002";
+}
+#fontawesome-shortcodes-help .glyphicon-search:before {
+  content: "\e003";
+}
+#fontawesome-shortcodes-help .glyphicon-heart:before {
+  content: "\e005";
+}
+#fontawesome-shortcodes-help .glyphicon-star:before {
+  content: "\e006";
+}
+#fontawesome-shortcodes-help .glyphicon-star-empty:before {
+  content: "\e007";
+}
+#fontawesome-shortcodes-help .glyphicon-user:before {
+  content: "\e008";
+}
+#fontawesome-shortcodes-help .glyphicon-film:before {
+  content: "\e009";
+}
+#fontawesome-shortcodes-help .glyphicon-th-large:before {
+  content: "\e010";
+}
+#fontawesome-shortcodes-help .glyphicon-th:before {
+  content: "\e011";
+}
+#fontawesome-shortcodes-help .glyphicon-th-list:before {
+  content: "\e012";
+}
+#fontawesome-shortcodes-help .glyphicon-ok:before {
+  content: "\e013";
+}
+#fontawesome-shortcodes-help .glyphicon-remove:before {
+  content: "\e014";
+}
+#fontawesome-shortcodes-help .glyphicon-zoom-in:before {
+  content: "\e015";
+}
+#fontawesome-shortcodes-help .glyphicon-zoom-out:before {
+  content: "\e016";
+}
+#fontawesome-shortcodes-help .glyphicon-off:before {
+  content: "\e017";
+}
+#fontawesome-shortcodes-help .glyphicon-signal:before {
+  content: "\e018";
+}
+#fontawesome-shortcodes-help .glyphicon-cog:before {
+  content: "\e019";
+}
+#fontawesome-shortcodes-help .glyphicon-trash:before {
+  content: "\e020";
+}
+#fontawesome-shortcodes-help .glyphicon-home:before {
+  content: "\e021";
+}
+#fontawesome-shortcodes-help .glyphicon-file:before {
+  content: "\e022";
+}
+#fontawesome-shortcodes-help .glyphicon-time:before {
+  content: "\e023";
+}
+#fontawesome-shortcodes-help .glyphicon-road:before {
+  content: "\e024";
+}
+#fontawesome-shortcodes-help .glyphicon-download-alt:before {
+  content: "\e025";
+}
+#fontawesome-shortcodes-help .glyphicon-download:before {
+  content: "\e026";
+}
+#fontawesome-shortcodes-help .glyphicon-upload:before {
+  content: "\e027";
+}
+#fontawesome-shortcodes-help .glyphicon-inbox:before {
+  content: "\e028";
+}
+#fontawesome-shortcodes-help .glyphicon-play-circle:before {
+  content: "\e029";
+}
+#fontawesome-shortcodes-help .glyphicon-repeat:before {
+  content: "\e030";
+}
+#fontawesome-shortcodes-help .glyphicon-refresh:before {
+  content: "\e031";
+}
+#fontawesome-shortcodes-help .glyphicon-list-alt:before {
+  content: "\e032";
+}
+#fontawesome-shortcodes-help .glyphicon-lock:before {
+  content: "\e033";
+}
+#fontawesome-shortcodes-help .glyphicon-flag:before {
+  content: "\e034";
+}
+#fontawesome-shortcodes-help .glyphicon-headphones:before {
+  content: "\e035";
+}
+#fontawesome-shortcodes-help .glyphicon-volume-off:before {
+  content: "\e036";
+}
+#fontawesome-shortcodes-help .glyphicon-volume-down:before {
+  content: "\e037";
+}
+#fontawesome-shortcodes-help .glyphicon-volume-up:before {
+  content: "\e038";
+}
+#fontawesome-shortcodes-help .glyphicon-qrcode:before {
+  content: "\e039";
+}
+#fontawesome-shortcodes-help .glyphicon-barcode:before {
+  content: "\e040";
+}
+#fontawesome-shortcodes-help .glyphicon-tag:before {
+  content: "\e041";
+}
+#fontawesome-shortcodes-help .glyphicon-tags:before {
+  content: "\e042";
+}
+#fontawesome-shortcodes-help .glyphicon-book:before {
+  content: "\e043";
+}
+#fontawesome-shortcodes-help .glyphicon-bookmark:before {
+  content: "\e044";
+}
+#fontawesome-shortcodes-help .glyphicon-print:before {
+  content: "\e045";
+}
+#fontawesome-shortcodes-help .glyphicon-camera:before {
+  content: "\e046";
+}
+#fontawesome-shortcodes-help .glyphicon-font:before {
+  content: "\e047";
+}
+#fontawesome-shortcodes-help .glyphicon-bold:before {
+  content: "\e048";
+}
+#fontawesome-shortcodes-help .glyphicon-italic:before {
+  content: "\e049";
+}
+#fontawesome-shortcodes-help .glyphicon-text-height:before {
+  content: "\e050";
+}
+#fontawesome-shortcodes-help .glyphicon-text-width:before {
+  content: "\e051";
+}
+#fontawesome-shortcodes-help .glyphicon-align-left:before {
+  content: "\e052";
+}
+#fontawesome-shortcodes-help .glyphicon-align-center:before {
+  content: "\e053";
+}
+#fontawesome-shortcodes-help .glyphicon-align-right:before {
+  content: "\e054";
+}
+#fontawesome-shortcodes-help .glyphicon-align-justify:before {
+  content: "\e055";
+}
+#fontawesome-shortcodes-help .glyphicon-list:before {
+  content: "\e056";
+}
+#fontawesome-shortcodes-help .glyphicon-indent-left:before {
+  content: "\e057";
+}
+#fontawesome-shortcodes-help .glyphicon-indent-right:before {
+  content: "\e058";
+}
+#fontawesome-shortcodes-help .glyphicon-facetime-video:before {
+  content: "\e059";
+}
+#fontawesome-shortcodes-help .glyphicon-picture:before {
+  content: "\e060";
+}
+#fontawesome-shortcodes-help .glyphicon-map-marker:before {
+  content: "\e062";
+}
+#fontawesome-shortcodes-help .glyphicon-adjust:before {
+  content: "\e063";
+}
+#fontawesome-shortcodes-help .glyphicon-tint:before {
+  content: "\e064";
+}
+#fontawesome-shortcodes-help .glyphicon-edit:before {
+  content: "\e065";
+}
+#fontawesome-shortcodes-help .glyphicon-share:before {
+  content: "\e066";
+}
+#fontawesome-shortcodes-help .glyphicon-check:before {
+  content: "\e067";
+}
+#fontawesome-shortcodes-help .glyphicon-move:before {
+  content: "\e068";
+}
+#fontawesome-shortcodes-help .glyphicon-step-backward:before {
+  content: "\e069";
+}
+#fontawesome-shortcodes-help .glyphicon-fast-backward:before {
+  content: "\e070";
+}
+#fontawesome-shortcodes-help .glyphicon-backward:before {
+  content: "\e071";
+}
+#fontawesome-shortcodes-help .glyphicon-play:before {
+  content: "\e072";
+}
+#fontawesome-shortcodes-help .glyphicon-pause:before {
+  content: "\e073";
+}
+#fontawesome-shortcodes-help .glyphicon-stop:before {
+  content: "\e074";
+}
+#fontawesome-shortcodes-help .glyphicon-forward:before {
+  content: "\e075";
+}
+#fontawesome-shortcodes-help .glyphicon-fast-forward:before {
+  content: "\e076";
+}
+#fontawesome-shortcodes-help .glyphicon-step-forward:before {
+  content: "\e077";
+}
+#fontawesome-shortcodes-help .glyphicon-eject:before {
+  content: "\e078";
+}
+#fontawesome-shortcodes-help .glyphicon-chevron-left:before {
+  content: "\e079";
+}
+#fontawesome-shortcodes-help .glyphicon-chevron-right:before {
+  content: "\e080";
+}
+#fontawesome-shortcodes-help .glyphicon-plus-sign:before {
+  content: "\e081";
+}
+#fontawesome-shortcodes-help .glyphicon-minus-sign:before {
+  content: "\e082";
+}
+#fontawesome-shortcodes-help .glyphicon-remove-sign:before {
+  content: "\e083";
+}
+#fontawesome-shortcodes-help .glyphicon-ok-sign:before {
+  content: "\e084";
+}
+#fontawesome-shortcodes-help .glyphicon-question-sign:before {
+  content: "\e085";
+}
+#fontawesome-shortcodes-help .glyphicon-info-sign:before {
+  content: "\e086";
+}
+#fontawesome-shortcodes-help .glyphicon-screenshot:before {
+  content: "\e087";
+}
+#fontawesome-shortcodes-help .glyphicon-remove-circle:before {
+  content: "\e088";
+}
+#fontawesome-shortcodes-help .glyphicon-ok-circle:before {
+  content: "\e089";
+}
+#fontawesome-shortcodes-help .glyphicon-ban-circle:before {
+  content: "\e090";
+}
+#fontawesome-shortcodes-help .glyphicon-arrow-left:before {
+  content: "\e091";
+}
+#fontawesome-shortcodes-help .glyphicon-arrow-right:before {
+  content: "\e092";
+}
+#fontawesome-shortcodes-help .glyphicon-arrow-up:before {
+  content: "\e093";
+}
+#fontawesome-shortcodes-help .glyphicon-arrow-down:before {
+  content: "\e094";
+}
+#fontawesome-shortcodes-help .glyphicon-share-alt:before {
+  content: "\e095";
+}
+#fontawesome-shortcodes-help .glyphicon-resize-full:before {
+  content: "\e096";
+}
+#fontawesome-shortcodes-help .glyphicon-resize-small:before {
+  content: "\e097";
+}
+#fontawesome-shortcodes-help .glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+#fontawesome-shortcodes-help .glyphicon-gift:before {
+  content: "\e102";
+}
+#fontawesome-shortcodes-help .glyphicon-leaf:before {
+  content: "\e103";
+}
+#fontawesome-shortcodes-help .glyphicon-fire:before {
+  content: "\e104";
+}
+#fontawesome-shortcodes-help .glyphicon-eye-open:before {
+  content: "\e105";
+}
+#fontawesome-shortcodes-help .glyphicon-eye-close:before {
+  content: "\e106";
+}
+#fontawesome-shortcodes-help .glyphicon-warning-sign:before {
+  content: "\e107";
+}
+#fontawesome-shortcodes-help .glyphicon-plane:before {
+  content: "\e108";
+}
+#fontawesome-shortcodes-help .glyphicon-calendar:before {
+  content: "\e109";
+}
+#fontawesome-shortcodes-help .glyphicon-random:before {
+  content: "\e110";
+}
+#fontawesome-shortcodes-help .glyphicon-comment:before {
+  content: "\e111";
+}
+#fontawesome-shortcodes-help .glyphicon-magnet:before {
+  content: "\e112";
+}
+#fontawesome-shortcodes-help .glyphicon-chevron-up:before {
+  content: "\e113";
+}
+#fontawesome-shortcodes-help .glyphicon-chevron-down:before {
+  content: "\e114";
+}
+#fontawesome-shortcodes-help .glyphicon-retweet:before {
+  content: "\e115";
+}
+#fontawesome-shortcodes-help .glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+#fontawesome-shortcodes-help .glyphicon-folder-close:before {
+  content: "\e117";
+}
+#fontawesome-shortcodes-help .glyphicon-folder-open:before {
+  content: "\e118";
+}
+#fontawesome-shortcodes-help .glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+#fontawesome-shortcodes-help .glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+#fontawesome-shortcodes-help .glyphicon-hdd:before {
+  content: "\e121";
+}
+#fontawesome-shortcodes-help .glyphicon-bullhorn:before {
+  content: "\e122";
+}
+#fontawesome-shortcodes-help .glyphicon-bell:before {
+  content: "\e123";
+}
+#fontawesome-shortcodes-help .glyphicon-certificate:before {
+  content: "\e124";
+}
+#fontawesome-shortcodes-help .glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+#fontawesome-shortcodes-help .glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+#fontawesome-shortcodes-help .glyphicon-hand-right:before {
+  content: "\e127";
+}
+#fontawesome-shortcodes-help .glyphicon-hand-left:before {
+  content: "\e128";
+}
+#fontawesome-shortcodes-help .glyphicon-hand-up:before {
+  content: "\e129";
+}
+#fontawesome-shortcodes-help .glyphicon-hand-down:before {
+  content: "\e130";
+}
+#fontawesome-shortcodes-help .glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+#fontawesome-shortcodes-help .glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+#fontawesome-shortcodes-help .glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+#fontawesome-shortcodes-help .glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+#fontawesome-shortcodes-help .glyphicon-globe:before {
+  content: "\e135";
+}
+#fontawesome-shortcodes-help .glyphicon-wrench:before {
+  content: "\e136";
+}
+#fontawesome-shortcodes-help .glyphicon-tasks:before {
+  content: "\e137";
+}
+#fontawesome-shortcodes-help .glyphicon-filter:before {
+  content: "\e138";
+}
+#fontawesome-shortcodes-help .glyphicon-briefcase:before {
+  content: "\e139";
+}
+#fontawesome-shortcodes-help .glyphicon-fullscreen:before {
+  content: "\e140";
+}
+#fontawesome-shortcodes-help .glyphicon-dashboard:before {
+  content: "\e141";
+}
+#fontawesome-shortcodes-help .glyphicon-paperclip:before {
+  content: "\e142";
+}
+#fontawesome-shortcodes-help .glyphicon-heart-empty:before {
+  content: "\e143";
+}
+#fontawesome-shortcodes-help .glyphicon-link:before {
+  content: "\e144";
+}
+#fontawesome-shortcodes-help .glyphicon-phone:before {
+  content: "\e145";
+}
+#fontawesome-shortcodes-help .glyphicon-pushpin:before {
+  content: "\e146";
+}
+#fontawesome-shortcodes-help .glyphicon-usd:before {
+  content: "\e148";
+}
+#fontawesome-shortcodes-help .glyphicon-gbp:before {
+  content: "\e149";
+}
+#fontawesome-shortcodes-help .glyphicon-sort:before {
+  content: "\e150";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+#fontawesome-shortcodes-help .glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+#fontawesome-shortcodes-help .glyphicon-unchecked:before {
+  content: "\e157";
+}
+#fontawesome-shortcodes-help .glyphicon-expand:before {
+  content: "\e158";
+}
+#fontawesome-shortcodes-help .glyphicon-collapse-down:before {
+  content: "\e159";
+}
+#fontawesome-shortcodes-help .glyphicon-collapse-up:before {
+  content: "\e160";
+}
+#fontawesome-shortcodes-help .glyphicon-log-in:before {
+  content: "\e161";
+}
+#fontawesome-shortcodes-help .glyphicon-flash:before {
+  content: "\e162";
+}
+#fontawesome-shortcodes-help .glyphicon-log-out:before {
+  content: "\e163";
+}
+#fontawesome-shortcodes-help .glyphicon-new-window:before {
+  content: "\e164";
+}
+#fontawesome-shortcodes-help .glyphicon-record:before {
+  content: "\e165";
+}
+#fontawesome-shortcodes-help .glyphicon-save:before {
+  content: "\e166";
+}
+#fontawesome-shortcodes-help .glyphicon-open:before {
+  content: "\e167";
+}
+#fontawesome-shortcodes-help .glyphicon-saved:before {
+  content: "\e168";
+}
+#fontawesome-shortcodes-help .glyphicon-import:before {
+  content: "\e169";
+}
+#fontawesome-shortcodes-help .glyphicon-export:before {
+  content: "\e170";
+}
+#fontawesome-shortcodes-help .glyphicon-send:before {
+  content: "\e171";
+}
+#fontawesome-shortcodes-help .glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+#fontawesome-shortcodes-help .glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+#fontawesome-shortcodes-help .glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+#fontawesome-shortcodes-help .glyphicon-floppy-save:before {
+  content: "\e175";
+}
+#fontawesome-shortcodes-help .glyphicon-floppy-open:before {
+  content: "\e176";
+}
+#fontawesome-shortcodes-help .glyphicon-credit-card:before {
+  content: "\e177";
+}
+#fontawesome-shortcodes-help .glyphicon-transfer:before {
+  content: "\e178";
+}
+#fontawesome-shortcodes-help .glyphicon-cutlery:before {
+  content: "\e179";
+}
+#fontawesome-shortcodes-help .glyphicon-header:before {
+  content: "\e180";
+}
+#fontawesome-shortcodes-help .glyphicon-compressed:before {
+  content: "\e181";
+}
+#fontawesome-shortcodes-help .glyphicon-earphone:before {
+  content: "\e182";
+}
+#fontawesome-shortcodes-help .glyphicon-phone-alt:before {
+  content: "\e183";
+}
+#fontawesome-shortcodes-help .glyphicon-tower:before {
+  content: "\e184";
+}
+#fontawesome-shortcodes-help .glyphicon-stats:before {
+  content: "\e185";
+}
+#fontawesome-shortcodes-help .glyphicon-sd-video:before {
+  content: "\e186";
+}
+#fontawesome-shortcodes-help .glyphicon-hd-video:before {
+  content: "\e187";
+}
+#fontawesome-shortcodes-help .glyphicon-subtitles:before {
+  content: "\e188";
+}
+#fontawesome-shortcodes-help .glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+#fontawesome-shortcodes-help .glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+#fontawesome-shortcodes-help .glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+#fontawesome-shortcodes-help .glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+#fontawesome-shortcodes-help .glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+#fontawesome-shortcodes-help .glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+#fontawesome-shortcodes-help .glyphicon-registration-mark:before {
+  content: "\e195";
+}
+#fontawesome-shortcodes-help .glyphicon-cloud-download:before {
+  content: "\e197";
+}
+#fontawesome-shortcodes-help .glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+#fontawesome-shortcodes-help .glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+#fontawesome-shortcodes-help .glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+#fontawesome-shortcodes-help .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+#fontawesome-shortcodes-help .dropdown {
+  position: relative;
+}
+#fontawesome-shortcodes-help .dropdown-toggle:focus {
+  outline: 0;
+}
+#fontawesome-shortcodes-help .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+#fontawesome-shortcodes-help .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+#fontawesome-shortcodes-help .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#fontawesome-shortcodes-help .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+#fontawesome-shortcodes-help .dropdown-menu > li > a:hover,
+#fontawesome-shortcodes-help .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+#fontawesome-shortcodes-help .dropdown-menu > .active > a,
+#fontawesome-shortcodes-help .dropdown-menu > .active > a:hover,
+#fontawesome-shortcodes-help .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+#fontawesome-shortcodes-help .dropdown-menu > .disabled > a,
+#fontawesome-shortcodes-help .dropdown-menu > .disabled > a:hover,
+#fontawesome-shortcodes-help .dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .dropdown-menu > .disabled > a:hover,
+#fontawesome-shortcodes-help .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+#fontawesome-shortcodes-help .open > .dropdown-menu {
+  display: block;
+}
+#fontawesome-shortcodes-help .open > a {
+  outline: 0;
+}
+#fontawesome-shortcodes-help .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #999999;
+}
+#fontawesome-shortcodes-help .dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+#fontawesome-shortcodes-help .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#fontawesome-shortcodes-help .dropup .caret,
+#fontawesome-shortcodes-help .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid;
+  content: "";
+}
+#fontawesome-shortcodes-help .dropup .dropdown-menu,
+#fontawesome-shortcodes-help .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+#fontawesome-shortcodes-help .btn-group,
+#fontawesome-shortcodes-help .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+#fontawesome-shortcodes-help .btn-group > .btn,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:hover,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:hover,
+#fontawesome-shortcodes-help .btn-group > .btn:focus,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:focus,
+#fontawesome-shortcodes-help .btn-group > .btn:active,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:active,
+#fontawesome-shortcodes-help .btn-group > .btn.active,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:focus,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:focus {
+  outline: none;
+}
+#fontawesome-shortcodes-help .btn-group .btn + .btn,
+#fontawesome-shortcodes-help .btn-group .btn + .btn-group,
+#fontawesome-shortcodes-help .btn-group .btn-group + .btn,
+#fontawesome-shortcodes-help .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+#fontawesome-shortcodes-help .btn-toolbar:before,
+#fontawesome-shortcodes-help .btn-toolbar:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .btn-toolbar:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .btn-toolbar:before,
+#fontawesome-shortcodes-help .btn-toolbar:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .btn-toolbar:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .btn-toolbar .btn-group {
+  float: left;
+}
+#fontawesome-shortcodes-help .btn-toolbar > .btn + .btn,
+#fontawesome-shortcodes-help .btn-toolbar > .btn-group + .btn,
+#fontawesome-shortcodes-help .btn-toolbar > .btn + .btn-group,
+#fontawesome-shortcodes-help .btn-toolbar > .btn-group + .btn-group {
+  margin-left: 5px;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn:last-child:not(:first-child),
+#fontawesome-shortcodes-help .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn-group {
+  float: left;
+}
+#fontawesome-shortcodes-help .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn-group:first-child > .btn:last-child,
+#fontawesome-shortcodes-help .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group .dropdown-toggle:active,
+#fontawesome-shortcodes-help .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+#fontawesome-shortcodes-help .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#fontawesome-shortcodes-help .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#fontawesome-shortcodes-help .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#fontawesome-shortcodes-help .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#fontawesome-shortcodes-help .btn .caret {
+  margin-left: 0;
+}
+#fontawesome-shortcodes-help .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+#fontawesome-shortcodes-help .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:before,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:before,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn + .btn,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn + .btn-group,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group + .btn,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:first-child > .btn:last-child,
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-vertical > .btn-group:last-child > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+#fontawesome-shortcodes-help .btn-group-justified > .btn,
+#fontawesome-shortcodes-help .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+#fontawesome-shortcodes-help .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+#fontawesome-shortcodes-help [data-toggle="buttons"] > .btn > input[type="radio"],
+#fontawesome-shortcodes-help [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+#fontawesome-shortcodes-help .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+#fontawesome-shortcodes-help .input-group[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+#fontawesome-shortcodes-help .input-group .form-control {
+  width: 100%;
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .input-group-lg > .form-control,
+#fontawesome-shortcodes-help .input-group-lg > .input-group-addon,
+#fontawesome-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select#fontawesome-shortcodes-help .input-group-lg > .form-control,
+select#fontawesome-shortcodes-help .input-group-lg > .input-group-addon,
+select#fontawesome-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+textarea#fontawesome-shortcodes-help .input-group-lg > .form-control,
+textarea#fontawesome-shortcodes-help .input-group-lg > .input-group-addon,
+textarea#fontawesome-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+#fontawesome-shortcodes-help .input-group-sm > .form-control,
+#fontawesome-shortcodes-help .input-group-sm > .input-group-addon,
+#fontawesome-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select#fontawesome-shortcodes-help .input-group-sm > .form-control,
+select#fontawesome-shortcodes-help .input-group-sm > .input-group-addon,
+select#fontawesome-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+textarea#fontawesome-shortcodes-help .input-group-sm > .form-control,
+textarea#fontawesome-shortcodes-help .input-group-sm > .input-group-addon,
+textarea#fontawesome-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+#fontawesome-shortcodes-help .input-group-addon,
+#fontawesome-shortcodes-help .input-group-btn,
+#fontawesome-shortcodes-help .input-group .form-control {
+  display: table-cell;
+}
+#fontawesome-shortcodes-help .input-group-addon:not(:first-child):not(:last-child),
+#fontawesome-shortcodes-help .input-group-btn:not(:first-child):not(:last-child),
+#fontawesome-shortcodes-help .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#fontawesome-shortcodes-help .input-group-addon,
+#fontawesome-shortcodes-help .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#fontawesome-shortcodes-help .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .input-group-addon input[type="radio"],
+#fontawesome-shortcodes-help .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+#fontawesome-shortcodes-help .input-group .form-control:first-child,
+#fontawesome-shortcodes-help .input-group-addon:first-child,
+#fontawesome-shortcodes-help .input-group-btn:first-child > .btn,
+#fontawesome-shortcodes-help .input-group-btn:first-child > .dropdown-toggle,
+#fontawesome-shortcodes-help .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#fontawesome-shortcodes-help .input-group-addon:first-child {
+  border-right: 0;
+}
+#fontawesome-shortcodes-help .input-group .form-control:last-child,
+#fontawesome-shortcodes-help .input-group-addon:last-child,
+#fontawesome-shortcodes-help .input-group-btn:last-child > .btn,
+#fontawesome-shortcodes-help .input-group-btn:last-child > .dropdown-toggle,
+#fontawesome-shortcodes-help .input-group-btn:first-child > .btn:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .input-group-addon:last-child {
+  border-left: 0;
+}
+#fontawesome-shortcodes-help .input-group-btn {
+  position: relative;
+  white-space: nowrap;
+}
+#fontawesome-shortcodes-help .input-group-btn:first-child > .btn {
+  margin-right: -1px;
+}
+#fontawesome-shortcodes-help .input-group-btn:last-child > .btn {
+  margin-left: -1px;
+}
+#fontawesome-shortcodes-help .input-group-btn > .btn {
+  position: relative;
+}
+#fontawesome-shortcodes-help .input-group-btn > .btn + .btn {
+  margin-left: -4px;
+}
+#fontawesome-shortcodes-help .input-group-btn > .btn:hover,
+#fontawesome-shortcodes-help .input-group-btn > .btn:active {
+  z-index: 2;
+}
+#fontawesome-shortcodes-help .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#fontawesome-shortcodes-help .nav:before,
+#fontawesome-shortcodes-help .nav:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .nav:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .nav:before,
+#fontawesome-shortcodes-help .nav:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .nav:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .nav > li {
+  position: relative;
+  display: block;
+}
+#fontawesome-shortcodes-help .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+#fontawesome-shortcodes-help .nav > li > a:hover,
+#fontawesome-shortcodes-help .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+#fontawesome-shortcodes-help .nav > li.disabled > a {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .nav > li.disabled > a:hover,
+#fontawesome-shortcodes-help .nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+#fontawesome-shortcodes-help .nav .open > a,
+#fontawesome-shortcodes-help .nav .open > a:hover,
+#fontawesome-shortcodes-help .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #428bca;
+}
+#fontawesome-shortcodes-help .nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#fontawesome-shortcodes-help .nav > li > a > img {
+  max-width: none;
+}
+#fontawesome-shortcodes-help .nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+#fontawesome-shortcodes-help .nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+#fontawesome-shortcodes-help .nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+#fontawesome-shortcodes-help .nav-tabs > li.active > a,
+#fontawesome-shortcodes-help .nav-tabs > li.active > a:hover,
+#fontawesome-shortcodes-help .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > li {
+  float: none;
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a,
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a:hover,
+#fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a,
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a:hover,
+  #fontawesome-shortcodes-help .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+#fontawesome-shortcodes-help .nav-pills > li {
+  float: left;
+}
+#fontawesome-shortcodes-help .nav-pills > li > a {
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .nav-pills > li + li {
+  margin-left: 2px;
+}
+#fontawesome-shortcodes-help .nav-pills > li.active > a,
+#fontawesome-shortcodes-help .nav-pills > li.active > a:hover,
+#fontawesome-shortcodes-help .nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+#fontawesome-shortcodes-help .nav-stacked > li {
+  float: none;
+}
+#fontawesome-shortcodes-help .nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+#fontawesome-shortcodes-help .nav-justified {
+  width: 100%;
+}
+#fontawesome-shortcodes-help .nav-justified > li {
+  float: none;
+}
+#fontawesome-shortcodes-help .nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#fontawesome-shortcodes-help .nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #fontawesome-shortcodes-help .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#fontawesome-shortcodes-help .nav-tabs-justified {
+  border-bottom: 0;
+}
+#fontawesome-shortcodes-help .nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .nav-tabs-justified > .active > a,
+#fontawesome-shortcodes-help .nav-tabs-justified > .active > a:hover,
+#fontawesome-shortcodes-help .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #fontawesome-shortcodes-help .nav-tabs-justified > .active > a,
+  #fontawesome-shortcodes-help .nav-tabs-justified > .active > a:hover,
+  #fontawesome-shortcodes-help .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+#fontawesome-shortcodes-help .tab-content > .tab-pane {
+  display: none;
+}
+#fontawesome-shortcodes-help .tab-content > .active {
+  display: block;
+}
+#fontawesome-shortcodes-help .nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+#fontawesome-shortcodes-help .navbar:before,
+#fontawesome-shortcodes-help .navbar:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .navbar:before,
+#fontawesome-shortcodes-help .navbar:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar {
+    border-radius: 4px;
+  }
+}
+#fontawesome-shortcodes-help .navbar-header:before,
+#fontawesome-shortcodes-help .navbar-header:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar-header:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .navbar-header:before,
+#fontawesome-shortcodes-help .navbar-header:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar-header:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-header {
+    float: left;
+  }
+}
+#fontawesome-shortcodes-help .navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+#fontawesome-shortcodes-help .navbar-collapse:before,
+#fontawesome-shortcodes-help .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar-collapse:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .navbar-collapse:before,
+#fontawesome-shortcodes-help .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .navbar-collapse:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  #fontawesome-shortcodes-help .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  #fontawesome-shortcodes-help .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top #fontawesome-shortcodes-help .navbar-collapse,
+  .navbar-static-top #fontawesome-shortcodes-help .navbar-collapse,
+  .navbar-fixed-bottom #fontawesome-shortcodes-help .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+#fontawesome-shortcodes-help .container > .navbar-header,
+#fontawesome-shortcodes-help .container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .container > .navbar-header,
+  #fontawesome-shortcodes-help .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+#fontawesome-shortcodes-help .navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-static-top {
+    border-radius: 0;
+  }
+}
+#fontawesome-shortcodes-help .navbar-fixed-top,
+#fontawesome-shortcodes-help .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-fixed-top,
+  #fontawesome-shortcodes-help .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+#fontawesome-shortcodes-help .navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+#fontawesome-shortcodes-help .navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+#fontawesome-shortcodes-help .navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+#fontawesome-shortcodes-help .navbar-brand:hover,
+#fontawesome-shortcodes-help .navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar > .container #fontawesome-shortcodes-help .navbar-brand {
+    margin-left: -15px;
+  }
+}
+#fontawesome-shortcodes-help .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+#fontawesome-shortcodes-help .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-toggle {
+    display: none;
+  }
+}
+#fontawesome-shortcodes-help .navbar-nav {
+  margin: 7.5px -15px;
+}
+#fontawesome-shortcodes-help .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu > li > a,
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu > li > a:hover,
+  #fontawesome-shortcodes-help .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  #fontawesome-shortcodes-help .navbar-nav > li {
+    float: left;
+  }
+  #fontawesome-shortcodes-help .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #fontawesome-shortcodes-help .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-left {
+    float: left !important;
+  }
+  #fontawesome-shortcodes-help .navbar-right {
+    float: right !important;
+  }
+}
+#fontawesome-shortcodes-help .navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #fontawesome-shortcodes-help .navbar-form .form-control {
+    display: inline-block;
+  }
+  #fontawesome-shortcodes-help .navbar-form select.form-control {
+    width: auto;
+  }
+  #fontawesome-shortcodes-help .navbar-form .radio,
+  #fontawesome-shortcodes-help .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  #fontawesome-shortcodes-help .navbar-form .radio input[type="radio"],
+  #fontawesome-shortcodes-help .navbar-form .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #fontawesome-shortcodes-help .navbar-form.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+#fontawesome-shortcodes-help .navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#fontawesome-shortcodes-help .navbar-nav.pull-right > li > .dropdown-menu,
+#fontawesome-shortcodes-help .navbar-nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0;
+}
+#fontawesome-shortcodes-help .navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#fontawesome-shortcodes-help .navbar-btn.btn-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fontawesome-shortcodes-help .navbar-btn.btn-xs {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+#fontawesome-shortcodes-help .navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  #fontawesome-shortcodes-help .navbar-text {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #fontawesome-shortcodes-help .navbar-text.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+#fontawesome-shortcodes-help .navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-brand {
+  color: #777777;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-brand:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-text {
+  color: #777777;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > li > a {
+  color: #777777;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > li > a:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > li > a:focus {
+  color: #333333;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .active > a,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .active > a:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .disabled > a,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .disabled > a:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-toggle:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-collapse,
+#fontawesome-shortcodes-help .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .open > a,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .open > a:hover,
+#fontawesome-shortcodes-help .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #e7e7e7;
+  color: #555555;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #fontawesome-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-link {
+  color: #777777;
+}
+#fontawesome-shortcodes-help .navbar-default .navbar-link:hover {
+  color: #333333;
+}
+#fontawesome-shortcodes-help .navbar-inverse {
+  background-color: #222222;
+  border-color: #080808;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-brand {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-brand:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-text {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > li > a {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > li > a:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .active > a,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .active > a:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-toggle {
+  border-color: #333333;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-toggle:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-toggle:focus {
+  background-color: #333333;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-collapse,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .open > a,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .open > a:hover,
+#fontawesome-shortcodes-help .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #080808;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #999999;
+  }
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #fontawesome-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-link {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .navbar-inverse .navbar-link:hover {
+  color: #ffffff;
+}
+#fontawesome-shortcodes-help .breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .breadcrumb > li {
+  display: inline-block;
+}
+#fontawesome-shortcodes-help .breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #cccccc;
+}
+#fontawesome-shortcodes-help .breadcrumb > .active {
+  color: #999999;
+}
+#fontawesome-shortcodes-help .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .pagination > li {
+  display: inline;
+}
+#fontawesome-shortcodes-help .pagination > li > a,
+#fontawesome-shortcodes-help .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+#fontawesome-shortcodes-help .pagination > li:first-child > a,
+#fontawesome-shortcodes-help .pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#fontawesome-shortcodes-help .pagination > li:last-child > a,
+#fontawesome-shortcodes-help .pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#fontawesome-shortcodes-help .pagination > li > a:hover,
+#fontawesome-shortcodes-help .pagination > li > span:hover,
+#fontawesome-shortcodes-help .pagination > li > a:focus,
+#fontawesome-shortcodes-help .pagination > li > span:focus {
+  background-color: #eeeeee;
+}
+#fontawesome-shortcodes-help .pagination > .active > a,
+#fontawesome-shortcodes-help .pagination > .active > span,
+#fontawesome-shortcodes-help .pagination > .active > a:hover,
+#fontawesome-shortcodes-help .pagination > .active > span:hover,
+#fontawesome-shortcodes-help .pagination > .active > a:focus,
+#fontawesome-shortcodes-help .pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+  cursor: default;
+}
+#fontawesome-shortcodes-help .pagination > .disabled > span,
+#fontawesome-shortcodes-help .pagination > .disabled > span:hover,
+#fontawesome-shortcodes-help .pagination > .disabled > span:focus,
+#fontawesome-shortcodes-help .pagination > .disabled > a,
+#fontawesome-shortcodes-help .pagination > .disabled > a:hover,
+#fontawesome-shortcodes-help .pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+#fontawesome-shortcodes-help .pagination-lg > li > a,
+#fontawesome-shortcodes-help .pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+#fontawesome-shortcodes-help .pagination-lg > li:first-child > a,
+#fontawesome-shortcodes-help .pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+#fontawesome-shortcodes-help .pagination-lg > li:last-child > a,
+#fontawesome-shortcodes-help .pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#fontawesome-shortcodes-help .pagination-sm > li > a,
+#fontawesome-shortcodes-help .pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+#fontawesome-shortcodes-help .pagination-sm > li:first-child > a,
+#fontawesome-shortcodes-help .pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#fontawesome-shortcodes-help .pagination-sm > li:last-child > a,
+#fontawesome-shortcodes-help .pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#fontawesome-shortcodes-help .pager {
+  padding-left: 0;
+  margin: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+#fontawesome-shortcodes-help .pager:before,
+#fontawesome-shortcodes-help .pager:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .pager:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .pager:before,
+#fontawesome-shortcodes-help .pager:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .pager:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .pager li {
+  display: inline;
+}
+#fontawesome-shortcodes-help .pager li > a,
+#fontawesome-shortcodes-help .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+}
+#fontawesome-shortcodes-help .pager li > a:hover,
+#fontawesome-shortcodes-help .pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+#fontawesome-shortcodes-help .pager .next > a,
+#fontawesome-shortcodes-help .pager .next > span {
+  float: right;
+}
+#fontawesome-shortcodes-help .pager .previous > a,
+#fontawesome-shortcodes-help .pager .previous > span {
+  float: left;
+}
+#fontawesome-shortcodes-help .pager .disabled > a,
+#fontawesome-shortcodes-help .pager .disabled > a:hover,
+#fontawesome-shortcodes-help .pager .disabled > a:focus,
+#fontawesome-shortcodes-help .pager .disabled > span {
+  color: #999999;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+#fontawesome-shortcodes-help .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+#fontawesome-shortcodes-help .label[href]:hover,
+#fontawesome-shortcodes-help .label[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#fontawesome-shortcodes-help .label:empty {
+  display: none;
+}
+.btn #fontawesome-shortcodes-help .label {
+  position: relative;
+  top: -1px;
+}
+#fontawesome-shortcodes-help .label-default {
+  background-color: #999999;
+}
+#fontawesome-shortcodes-help .label-default[href]:hover,
+#fontawesome-shortcodes-help .label-default[href]:focus {
+  background-color: #808080;
+}
+#fontawesome-shortcodes-help .label-primary {
+  background-color: #428bca;
+}
+#fontawesome-shortcodes-help .label-primary[href]:hover,
+#fontawesome-shortcodes-help .label-primary[href]:focus {
+  background-color: #3071a9;
+}
+#fontawesome-shortcodes-help .label-success {
+  background-color: #5cb85c;
+}
+#fontawesome-shortcodes-help .label-success[href]:hover,
+#fontawesome-shortcodes-help .label-success[href]:focus {
+  background-color: #449d44;
+}
+#fontawesome-shortcodes-help .label-info {
+  background-color: #5bc0de;
+}
+#fontawesome-shortcodes-help .label-info[href]:hover,
+#fontawesome-shortcodes-help .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+#fontawesome-shortcodes-help .label-warning {
+  background-color: #f0ad4e;
+}
+#fontawesome-shortcodes-help .label-warning[href]:hover,
+#fontawesome-shortcodes-help .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+#fontawesome-shortcodes-help .label-danger {
+  background-color: #d9534f;
+}
+#fontawesome-shortcodes-help .label-danger[href]:hover,
+#fontawesome-shortcodes-help .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+#fontawesome-shortcodes-help .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #999999;
+  border-radius: 10px;
+}
+#fontawesome-shortcodes-help .badge:empty {
+  display: none;
+}
+.btn #fontawesome-shortcodes-help .badge {
+  position: relative;
+  top: -1px;
+}
+#fontawesome-shortcodes-help a.badge:hover,
+#fontawesome-shortcodes-help a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#fontawesome-shortcodes-help a.list-group-item.active > .badge,
+#fontawesome-shortcodes-help .nav-pills > .active > a > .badge {
+  color: #428bca;
+  background-color: #ffffff;
+}
+#fontawesome-shortcodes-help .nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+#fontawesome-shortcodes-help .jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+#fontawesome-shortcodes-help .jumbotron h1,
+#fontawesome-shortcodes-help .jumbotron .h1 {
+  line-height: 1;
+  color: inherit;
+}
+#fontawesome-shortcodes-help .jumbotron p {
+  line-height: 1.4;
+}
+.container #fontawesome-shortcodes-help .jumbotron {
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #fontawesome-shortcodes-help .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container #fontawesome-shortcodes-help .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #fontawesome-shortcodes-help .jumbotron h1,
+  #fontawesome-shortcodes-help .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+#fontawesome-shortcodes-help .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#fontawesome-shortcodes-help .thumbnail > img,
+#fontawesome-shortcodes-help .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+a#fontawesome-shortcodes-help .thumbnail:hover,
+a#fontawesome-shortcodes-help .thumbnail:focus,
+a#fontawesome-shortcodes-help .thumbnail.active {
+  border-color: #428bca;
+}
+#fontawesome-shortcodes-help .thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+#fontawesome-shortcodes-help .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#fontawesome-shortcodes-help .alert .alert-link {
+  font-weight: bold;
+}
+#fontawesome-shortcodes-help .alert > p,
+#fontawesome-shortcodes-help .alert > ul {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .alert > p + p {
+  margin-top: 5px;
+}
+#fontawesome-shortcodes-help .alert-dismissable {
+  padding-right: 35px;
+}
+#fontawesome-shortcodes-help .alert-dismissable .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+#fontawesome-shortcodes-help .alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+#fontawesome-shortcodes-help .alert-success hr {
+  border-top-color: #c9e2b3;
+}
+#fontawesome-shortcodes-help .alert-success .alert-link {
+  color: #2b542c;
+}
+#fontawesome-shortcodes-help .alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+#fontawesome-shortcodes-help .alert-info hr {
+  border-top-color: #a6e1ec;
+}
+#fontawesome-shortcodes-help .alert-info .alert-link {
+  color: #245269;
+}
+#fontawesome-shortcodes-help .alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+#fontawesome-shortcodes-help .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+#fontawesome-shortcodes-help .alert-warning .alert-link {
+  color: #66512c;
+}
+#fontawesome-shortcodes-help .alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+#fontawesome-shortcodes-help .alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+#fontawesome-shortcodes-help .alert-danger .alert-link {
+  color: #843534;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+#fontawesome-shortcodes-help .progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#fontawesome-shortcodes-help .progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+#fontawesome-shortcodes-help .progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+#fontawesome-shortcodes-help .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+#fontawesome-shortcodes-help .progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped #fontawesome-shortcodes-help .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#fontawesome-shortcodes-help .progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped #fontawesome-shortcodes-help .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#fontawesome-shortcodes-help .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped #fontawesome-shortcodes-help .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#fontawesome-shortcodes-help .progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped #fontawesome-shortcodes-help .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#fontawesome-shortcodes-help .media,
+#fontawesome-shortcodes-help .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+#fontawesome-shortcodes-help .media,
+#fontawesome-shortcodes-help .media .media {
+  margin-top: 15px;
+}
+#fontawesome-shortcodes-help .media:first-child {
+  margin-top: 0;
+}
+#fontawesome-shortcodes-help .media-object {
+  display: block;
+}
+#fontawesome-shortcodes-help .media-heading {
+  margin: 0 0 5px;
+}
+#fontawesome-shortcodes-help .media > .pull-left {
+  margin-right: 10px;
+}
+#fontawesome-shortcodes-help .media > .pull-right {
+  margin-left: 10px;
+}
+#fontawesome-shortcodes-help .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+#fontawesome-shortcodes-help .list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+#fontawesome-shortcodes-help .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .list-group-item:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#fontawesome-shortcodes-help .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#fontawesome-shortcodes-help .list-group-item > .badge {
+  float: right;
+}
+#fontawesome-shortcodes-help .list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+#fontawesome-shortcodes-help a.list-group-item {
+  color: #555555;
+}
+#fontawesome-shortcodes-help a.list-group-item .list-group-item-heading {
+  color: #333333;
+}
+#fontawesome-shortcodes-help a.list-group-item:hover,
+#fontawesome-shortcodes-help a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+#fontawesome-shortcodes-help a.list-group-item.active,
+#fontawesome-shortcodes-help a.list-group-item.active:hover,
+#fontawesome-shortcodes-help a.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#fontawesome-shortcodes-help a.list-group-item.active .list-group-item-heading,
+#fontawesome-shortcodes-help a.list-group-item.active:hover .list-group-item-heading,
+#fontawesome-shortcodes-help a.list-group-item.active:focus .list-group-item-heading {
+  color: inherit;
+}
+#fontawesome-shortcodes-help a.list-group-item.active .list-group-item-text,
+#fontawesome-shortcodes-help a.list-group-item.active:hover .list-group-item-text,
+#fontawesome-shortcodes-help a.list-group-item.active:focus .list-group-item-text {
+  color: #e1edf7;
+}
+#fontawesome-shortcodes-help .list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#fontawesome-shortcodes-help .list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+#fontawesome-shortcodes-help .panel {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#fontawesome-shortcodes-help .panel-body {
+  padding: 15px;
+}
+#fontawesome-shortcodes-help .panel-body:before,
+#fontawesome-shortcodes-help .panel-body:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .panel-body:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .panel-body:before,
+#fontawesome-shortcodes-help .panel-body:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .panel-body:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .panel > .list-group {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel > .list-group .list-group-item {
+  border-width: 1px 0;
+}
+#fontawesome-shortcodes-help .panel > .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#fontawesome-shortcodes-help .panel > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+#fontawesome-shortcodes-help .panel > .table,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table {
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel > .panel-body + .table,
+#fontawesome-shortcodes-help .panel > .panel-body + .table-responsive {
+  border-top: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .panel > .table > tbody:first-child th,
+#fontawesome-shortcodes-help .panel > .table > tbody:first-child td {
+  border-top: 0;
+}
+#fontawesome-shortcodes-help .panel > .table-bordered,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr > td:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr > td:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr > td:first-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr > td:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr > td:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr > td:last-child,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+#fontawesome-shortcodes-help .panel > .table-bordered > thead > tr:last-child > td,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr:last-child > td,
+#fontawesome-shortcodes-help .panel > .table-bordered > tbody > tr:last-child > td,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+#fontawesome-shortcodes-help .panel > .table-bordered > tfoot > tr:last-child > td,
+#fontawesome-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  border-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#fontawesome-shortcodes-help .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+#fontawesome-shortcodes-help .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+#fontawesome-shortcodes-help .panel-title > a {
+  color: inherit;
+}
+#fontawesome-shortcodes-help .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#fontawesome-shortcodes-help .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#fontawesome-shortcodes-help .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+#fontawesome-shortcodes-help .panel-group .panel-heading {
+  border-bottom: 0;
+}
+#fontawesome-shortcodes-help .panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .panel-group .panel-footer {
+  border-top: 0;
+}
+#fontawesome-shortcodes-help .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #dddddd;
+}
+#fontawesome-shortcodes-help .panel-default {
+  border-color: #dddddd;
+}
+#fontawesome-shortcodes-help .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+#fontawesome-shortcodes-help .panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #dddddd;
+}
+#fontawesome-shortcodes-help .panel-default > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #dddddd;
+}
+#fontawesome-shortcodes-help .panel-primary {
+  border-color: #428bca;
+}
+#fontawesome-shortcodes-help .panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#fontawesome-shortcodes-help .panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #428bca;
+}
+#fontawesome-shortcodes-help .panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #428bca;
+}
+#fontawesome-shortcodes-help .panel-success {
+  border-color: #d6e9c6;
+}
+#fontawesome-shortcodes-help .panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+#fontawesome-shortcodes-help .panel-success > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #d6e9c6;
+}
+#fontawesome-shortcodes-help .panel-success > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+#fontawesome-shortcodes-help .panel-warning {
+  border-color: #faebcc;
+}
+#fontawesome-shortcodes-help .panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+#fontawesome-shortcodes-help .panel-warning > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #faebcc;
+}
+#fontawesome-shortcodes-help .panel-warning > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #faebcc;
+}
+#fontawesome-shortcodes-help .panel-danger {
+  border-color: #ebccd1;
+}
+#fontawesome-shortcodes-help .panel-danger > .panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+#fontawesome-shortcodes-help .panel-danger > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #ebccd1;
+}
+#fontawesome-shortcodes-help .panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
+}
+#fontawesome-shortcodes-help .panel-info {
+  border-color: #bce8f1;
+}
+#fontawesome-shortcodes-help .panel-info > .panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#fontawesome-shortcodes-help .panel-info > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #bce8f1;
+}
+#fontawesome-shortcodes-help .panel-info > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #bce8f1;
+}
+#fontawesome-shortcodes-help .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#fontawesome-shortcodes-help .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+#fontawesome-shortcodes-help .well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+#fontawesome-shortcodes-help .well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+#fontawesome-shortcodes-help .close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#fontawesome-shortcodes-help .close:hover,
+#fontawesome-shortcodes-help .close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button#fontawesome-shortcodes-help .close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+#fontawesome-shortcodes-help .modal-open {
+  overflow: hidden;
+}
+#fontawesome-shortcodes-help .modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+#fontawesome-shortcodes-help .modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+#fontawesome-shortcodes-help .modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#fontawesome-shortcodes-help .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+  z-index: 1050;
+}
+#fontawesome-shortcodes-help .modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+#fontawesome-shortcodes-help .modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #000000;
+}
+#fontawesome-shortcodes-help .modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#fontawesome-shortcodes-help .modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#fontawesome-shortcodes-help .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.428571429px;
+}
+#fontawesome-shortcodes-help .modal-header .close {
+  margin-top: -2px;
+}
+#fontawesome-shortcodes-help .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+#fontawesome-shortcodes-help .modal-body {
+  position: relative;
+  padding: 20px;
+}
+#fontawesome-shortcodes-help .modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#fontawesome-shortcodes-help .modal-footer:before,
+#fontawesome-shortcodes-help .modal-footer:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .modal-footer:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .modal-footer:before,
+#fontawesome-shortcodes-help .modal-footer:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .modal-footer:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+#fontawesome-shortcodes-help .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#fontawesome-shortcodes-help .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+@media screen and (min-width: 768px) {
+  #fontawesome-shortcodes-help .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #fontawesome-shortcodes-help .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+#fontawesome-shortcodes-help .tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#fontawesome-shortcodes-help .tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#fontawesome-shortcodes-help .tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+#fontawesome-shortcodes-help .tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+#fontawesome-shortcodes-help .tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+#fontawesome-shortcodes-help .tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+#fontawesome-shortcodes-help .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+#fontawesome-shortcodes-help .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#fontawesome-shortcodes-help .tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#fontawesome-shortcodes-help .tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#fontawesome-shortcodes-help .popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+#fontawesome-shortcodes-help .popover.top {
+  margin-top: -10px;
+}
+#fontawesome-shortcodes-help .popover.right {
+  margin-left: 10px;
+}
+#fontawesome-shortcodes-help .popover.bottom {
+  margin-top: 10px;
+}
+#fontawesome-shortcodes-help .popover.left {
+  margin-left: -10px;
+}
+#fontawesome-shortcodes-help .popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+#fontawesome-shortcodes-help .popover-content {
+  padding: 9px 14px;
+}
+#fontawesome-shortcodes-help .popover .arrow,
+#fontawesome-shortcodes-help .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#fontawesome-shortcodes-help .popover .arrow {
+  border-width: 11px;
+}
+#fontawesome-shortcodes-help .popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+#fontawesome-shortcodes-help .popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+#fontawesome-shortcodes-help .popover.top .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #ffffff;
+}
+#fontawesome-shortcodes-help .popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+#fontawesome-shortcodes-help .popover.right .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #ffffff;
+}
+#fontawesome-shortcodes-help .popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+#fontawesome-shortcodes-help .popover.bottom .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}
+#fontawesome-shortcodes-help .popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+#fontawesome-shortcodes-help .popover.left .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  bottom: -10px;
+}
+#fontawesome-shortcodes-help .carousel {
+  position: relative;
+}
+#fontawesome-shortcodes-help .carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+#fontawesome-shortcodes-help .carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+#fontawesome-shortcodes-help .carousel-inner > .item > img,
+#fontawesome-shortcodes-help .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+#fontawesome-shortcodes-help .carousel-inner > .active,
+#fontawesome-shortcodes-help .carousel-inner > .next,
+#fontawesome-shortcodes-help .carousel-inner > .prev {
+  display: block;
+}
+#fontawesome-shortcodes-help .carousel-inner > .active {
+  left: 0;
+}
+#fontawesome-shortcodes-help .carousel-inner > .next,
+#fontawesome-shortcodes-help .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#fontawesome-shortcodes-help .carousel-inner > .next {
+  left: 100%;
+}
+#fontawesome-shortcodes-help .carousel-inner > .prev {
+  left: -100%;
+}
+#fontawesome-shortcodes-help .carousel-inner > .next.left,
+#fontawesome-shortcodes-help .carousel-inner > .prev.right {
+  left: 0;
+}
+#fontawesome-shortcodes-help .carousel-inner > .active.left {
+  left: -100%;
+}
+#fontawesome-shortcodes-help .carousel-inner > .active.right {
+  left: 100%;
+}
+#fontawesome-shortcodes-help .carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#fontawesome-shortcodes-help .carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+#fontawesome-shortcodes-help .carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+#fontawesome-shortcodes-help .carousel-control:hover,
+#fontawesome-shortcodes-help .carousel-control:focus {
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#fontawesome-shortcodes-help .carousel-control .icon-prev,
+#fontawesome-shortcodes-help .carousel-control .icon-next,
+#fontawesome-shortcodes-help .carousel-control .glyphicon-chevron-left,
+#fontawesome-shortcodes-help .carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+#fontawesome-shortcodes-help .carousel-control .icon-prev,
+#fontawesome-shortcodes-help .carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+#fontawesome-shortcodes-help .carousel-control .icon-next,
+#fontawesome-shortcodes-help .carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+#fontawesome-shortcodes-help .carousel-control .icon-prev,
+#fontawesome-shortcodes-help .carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+#fontawesome-shortcodes-help .carousel-control .icon-prev:before {
+  content: '\2039';
+}
+#fontawesome-shortcodes-help .carousel-control .icon-next:before {
+  content: '\203a';
+}
+#fontawesome-shortcodes-help .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+#fontawesome-shortcodes-help .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+#fontawesome-shortcodes-help .carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+}
+#fontawesome-shortcodes-help .carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#fontawesome-shortcodes-help .carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  #fontawesome-shortcodes-help .carousel-control .glyphicons-chevron-left,
+  #fontawesome-shortcodes-help .carousel-control .glyphicons-chevron-right,
+  #fontawesome-shortcodes-help .carousel-control .icon-prev,
+  #fontawesome-shortcodes-help .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  #fontawesome-shortcodes-help .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  #fontawesome-shortcodes-help .carousel-indicators {
+    bottom: 20px;
+  }
+}
+#fontawesome-shortcodes-help .clearfix:before,
+#fontawesome-shortcodes-help .clearfix:after {
+  content: " ";
+  display: table;
+}
+#fontawesome-shortcodes-help .clearfix:after {
+  clear: both;
+}
+#fontawesome-shortcodes-help .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#fontawesome-shortcodes-help .pull-right {
+  float: right !important;
+}
+#fontawesome-shortcodes-help .pull-left {
+  float: left !important;
+}
+#fontawesome-shortcodes-help .hide {
+  display: none !important;
+}
+#fontawesome-shortcodes-help .show {
+  display: block !important;
+}
+#fontawesome-shortcodes-help .invisible {
+  visibility: hidden;
+}
+#fontawesome-shortcodes-help .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#fontawesome-shortcodes-help .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+#fontawesome-shortcodes-help .affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+#fontawesome-shortcodes-help .visible-xs,
+tr#fontawesome-shortcodes-help .visible-xs,
+th#fontawesome-shortcodes-help .visible-xs,
+td#fontawesome-shortcodes-help .visible-xs {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .visible-xs {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-xs {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-xs {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-xs,
+  td#fontawesome-shortcodes-help .visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .visible-xs.visible-sm {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-xs.visible-sm {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-xs.visible-sm {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-xs.visible-sm,
+  td#fontawesome-shortcodes-help .visible-xs.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .visible-xs.visible-md {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-xs.visible-md {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-xs.visible-md {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-xs.visible-md,
+  td#fontawesome-shortcodes-help .visible-xs.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .visible-xs.visible-lg {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-xs.visible-lg {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-xs.visible-lg {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-xs.visible-lg,
+  td#fontawesome-shortcodes-help .visible-xs.visible-lg {
+    display: table-cell !important;
+  }
+}
+#fontawesome-shortcodes-help .visible-sm,
+tr#fontawesome-shortcodes-help .visible-sm,
+th#fontawesome-shortcodes-help .visible-sm,
+td#fontawesome-shortcodes-help .visible-sm {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .visible-sm.visible-xs {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-sm.visible-xs {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-sm.visible-xs {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-sm.visible-xs,
+  td#fontawesome-shortcodes-help .visible-sm.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .visible-sm {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-sm {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-sm {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-sm,
+  td#fontawesome-shortcodes-help .visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .visible-sm.visible-md {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-sm.visible-md {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-sm.visible-md {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-sm.visible-md,
+  td#fontawesome-shortcodes-help .visible-sm.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .visible-sm.visible-lg {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-sm.visible-lg {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-sm.visible-lg {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-sm.visible-lg,
+  td#fontawesome-shortcodes-help .visible-sm.visible-lg {
+    display: table-cell !important;
+  }
+}
+#fontawesome-shortcodes-help .visible-md,
+tr#fontawesome-shortcodes-help .visible-md,
+th#fontawesome-shortcodes-help .visible-md,
+td#fontawesome-shortcodes-help .visible-md {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .visible-md.visible-xs {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-md.visible-xs {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-md.visible-xs {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-md.visible-xs,
+  td#fontawesome-shortcodes-help .visible-md.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .visible-md.visible-sm {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-md.visible-sm {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-md.visible-sm {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-md.visible-sm,
+  td#fontawesome-shortcodes-help .visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .visible-md {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-md {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-md {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-md,
+  td#fontawesome-shortcodes-help .visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .visible-md.visible-lg {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-md.visible-lg {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-md.visible-lg {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-md.visible-lg,
+  td#fontawesome-shortcodes-help .visible-md.visible-lg {
+    display: table-cell !important;
+  }
+}
+#fontawesome-shortcodes-help .visible-lg,
+tr#fontawesome-shortcodes-help .visible-lg,
+th#fontawesome-shortcodes-help .visible-lg,
+td#fontawesome-shortcodes-help .visible-lg {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .visible-lg.visible-xs {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-lg.visible-xs {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-lg.visible-xs {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-lg.visible-xs,
+  td#fontawesome-shortcodes-help .visible-lg.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .visible-lg.visible-sm {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-lg.visible-sm {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-lg.visible-sm {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-lg.visible-sm,
+  td#fontawesome-shortcodes-help .visible-lg.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .visible-lg.visible-md {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-lg.visible-md {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-lg.visible-md {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-lg.visible-md,
+  td#fontawesome-shortcodes-help .visible-lg.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .visible-lg {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-lg {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-lg {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-lg,
+  td#fontawesome-shortcodes-help .visible-lg {
+    display: table-cell !important;
+  }
+}
+#fontawesome-shortcodes-help .hidden-xs {
+  display: block !important;
+}
+table#fontawesome-shortcodes-help .hidden-xs {
+  display: table;
+}
+tr#fontawesome-shortcodes-help .hidden-xs {
+  display: table-row !important;
+}
+th#fontawesome-shortcodes-help .hidden-xs,
+td#fontawesome-shortcodes-help .hidden-xs {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .hidden-xs,
+  tr#fontawesome-shortcodes-help .hidden-xs,
+  th#fontawesome-shortcodes-help .hidden-xs,
+  td#fontawesome-shortcodes-help .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .hidden-xs.hidden-sm,
+  tr#fontawesome-shortcodes-help .hidden-xs.hidden-sm,
+  th#fontawesome-shortcodes-help .hidden-xs.hidden-sm,
+  td#fontawesome-shortcodes-help .hidden-xs.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .hidden-xs.hidden-md,
+  tr#fontawesome-shortcodes-help .hidden-xs.hidden-md,
+  th#fontawesome-shortcodes-help .hidden-xs.hidden-md,
+  td#fontawesome-shortcodes-help .hidden-xs.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .hidden-xs.hidden-lg,
+  tr#fontawesome-shortcodes-help .hidden-xs.hidden-lg,
+  th#fontawesome-shortcodes-help .hidden-xs.hidden-lg,
+  td#fontawesome-shortcodes-help .hidden-xs.hidden-lg {
+    display: none !important;
+  }
+}
+#fontawesome-shortcodes-help .hidden-sm {
+  display: block !important;
+}
+table#fontawesome-shortcodes-help .hidden-sm {
+  display: table;
+}
+tr#fontawesome-shortcodes-help .hidden-sm {
+  display: table-row !important;
+}
+th#fontawesome-shortcodes-help .hidden-sm,
+td#fontawesome-shortcodes-help .hidden-sm {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .hidden-sm.hidden-xs,
+  tr#fontawesome-shortcodes-help .hidden-sm.hidden-xs,
+  th#fontawesome-shortcodes-help .hidden-sm.hidden-xs,
+  td#fontawesome-shortcodes-help .hidden-sm.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .hidden-sm,
+  tr#fontawesome-shortcodes-help .hidden-sm,
+  th#fontawesome-shortcodes-help .hidden-sm,
+  td#fontawesome-shortcodes-help .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .hidden-sm.hidden-md,
+  tr#fontawesome-shortcodes-help .hidden-sm.hidden-md,
+  th#fontawesome-shortcodes-help .hidden-sm.hidden-md,
+  td#fontawesome-shortcodes-help .hidden-sm.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .hidden-sm.hidden-lg,
+  tr#fontawesome-shortcodes-help .hidden-sm.hidden-lg,
+  th#fontawesome-shortcodes-help .hidden-sm.hidden-lg,
+  td#fontawesome-shortcodes-help .hidden-sm.hidden-lg {
+    display: none !important;
+  }
+}
+#fontawesome-shortcodes-help .hidden-md {
+  display: block !important;
+}
+table#fontawesome-shortcodes-help .hidden-md {
+  display: table;
+}
+tr#fontawesome-shortcodes-help .hidden-md {
+  display: table-row !important;
+}
+th#fontawesome-shortcodes-help .hidden-md,
+td#fontawesome-shortcodes-help .hidden-md {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .hidden-md.hidden-xs,
+  tr#fontawesome-shortcodes-help .hidden-md.hidden-xs,
+  th#fontawesome-shortcodes-help .hidden-md.hidden-xs,
+  td#fontawesome-shortcodes-help .hidden-md.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .hidden-md.hidden-sm,
+  tr#fontawesome-shortcodes-help .hidden-md.hidden-sm,
+  th#fontawesome-shortcodes-help .hidden-md.hidden-sm,
+  td#fontawesome-shortcodes-help .hidden-md.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .hidden-md,
+  tr#fontawesome-shortcodes-help .hidden-md,
+  th#fontawesome-shortcodes-help .hidden-md,
+  td#fontawesome-shortcodes-help .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .hidden-md.hidden-lg,
+  tr#fontawesome-shortcodes-help .hidden-md.hidden-lg,
+  th#fontawesome-shortcodes-help .hidden-md.hidden-lg,
+  td#fontawesome-shortcodes-help .hidden-md.hidden-lg {
+    display: none !important;
+  }
+}
+#fontawesome-shortcodes-help .hidden-lg {
+  display: block !important;
+}
+table#fontawesome-shortcodes-help .hidden-lg {
+  display: table;
+}
+tr#fontawesome-shortcodes-help .hidden-lg {
+  display: table-row !important;
+}
+th#fontawesome-shortcodes-help .hidden-lg,
+td#fontawesome-shortcodes-help .hidden-lg {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #fontawesome-shortcodes-help .hidden-lg.hidden-xs,
+  tr#fontawesome-shortcodes-help .hidden-lg.hidden-xs,
+  th#fontawesome-shortcodes-help .hidden-lg.hidden-xs,
+  td#fontawesome-shortcodes-help .hidden-lg.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #fontawesome-shortcodes-help .hidden-lg.hidden-sm,
+  tr#fontawesome-shortcodes-help .hidden-lg.hidden-sm,
+  th#fontawesome-shortcodes-help .hidden-lg.hidden-sm,
+  td#fontawesome-shortcodes-help .hidden-lg.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #fontawesome-shortcodes-help .hidden-lg.hidden-md,
+  tr#fontawesome-shortcodes-help .hidden-lg.hidden-md,
+  th#fontawesome-shortcodes-help .hidden-lg.hidden-md,
+  td#fontawesome-shortcodes-help .hidden-lg.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #fontawesome-shortcodes-help .hidden-lg,
+  tr#fontawesome-shortcodes-help .hidden-lg,
+  th#fontawesome-shortcodes-help .hidden-lg,
+  td#fontawesome-shortcodes-help .hidden-lg {
+    display: none !important;
+  }
+}
+#fontawesome-shortcodes-help .visible-print,
+tr#fontawesome-shortcodes-help .visible-print,
+th#fontawesome-shortcodes-help .visible-print,
+td#fontawesome-shortcodes-help .visible-print {
+  display: none !important;
+}
+@media print {
+  #fontawesome-shortcodes-help .visible-print {
+    display: block !important;
+  }
+  table#fontawesome-shortcodes-help .visible-print {
+    display: table;
+  }
+  tr#fontawesome-shortcodes-help .visible-print {
+    display: table-row !important;
+  }
+  th#fontawesome-shortcodes-help .visible-print,
+  td#fontawesome-shortcodes-help .visible-print {
+    display: table-cell !important;
+  }
+  #fontawesome-shortcodes-help .hidden-print,
+  tr#fontawesome-shortcodes-help .hidden-print,
+  th#fontawesome-shortcodes-help .hidden-print,
+  td#fontawesome-shortcodes-help .hidden-print {
+    display: none !important;
+  }
+}
