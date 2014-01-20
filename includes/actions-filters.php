@@ -13,13 +13,8 @@ add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
-// Create a Media Button for the help file
-//add a button to the content editor, next to the media button
-//this button will show a popup that contains inline content
-add_action('media_buttons_context', 'add_fontawesome_button');
-
 //action to add a custom button to the content editor
-function add_fontawesome_button($context) {
+function add_fontawesome_button() {
   
   //path to my icon
   $img = FA_SHORTCODES_URL . 'images/Fontawesome_logo.svg';
@@ -35,8 +30,13 @@ function add_fontawesome_button($context) {
     href='#TB_inline?width=640inlineId={$popup_url}&height=550' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
     <img src='{$img}' style='height: 20px; position: relative; top: -2px;'></a>";
   
-  return $context;
+  echo $context;
 }
+
+// Create a Media Button for the help file
+//add a button to the content editor, next to the media button
+//this button will show a popup that contains inline content
+add_action('media_buttons', 'add_fontawesome_button', 11);
 
 function fontawesome_shortcodes_help() {
     include('fontawesome-shortcodes-help.php');
