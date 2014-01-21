@@ -4,7 +4,7 @@
 function fa_retitle($match) {
     list($_unused, $h3, $title) = $match;
 
-    $id = strtolower(strtr($title, " .", "--"));
+    $id = "fa-" . strtolower(strtr($title, " .", "--"));
 
     return "<$h3 id='$id'>$title</$h3>";
 }
@@ -1045,14 +1045,19 @@ $html = MarkdownExtra::defaultTransform($text);
         </div>
             
             <div class="tab-pane" id="documentation">
-                <?php
-                    # Put HTML content in the document
-                    $html = preg_replace('/(<a href="http:[^"]+")>/is','\\1 target="_blank">',$html);
-                    $html = str_replace('<table>', '<table class="table table-striped">', $html);
-                    $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "retitle", $html);
-                    $html = str_replace('</pre>', '</pre><p><button class="btn btn-primary btn-sm fa-insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
-                    echo $html;
-                ?>
+            <?php
+                # Put HTML content in the document
+                $html = preg_replace('/(<a href="http:[^"]+")>/is','\\1 target="_blank">',$html);
+                $html = str_replace('<table>', '<table class="table table-striped">', $html);
+                $html = str_replace('<ul>', '<div class="list-group">', $html);
+                $html = str_replace('</ul>', '</div">', $html);
+                $html = str_replace('<li><a ', '<a class="list-group-item" ', $html);
+                $html = str_replace('</li>', '', $html);
+                $html = str_replace('href="#', 'href="#fa-', $html);
+                $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "fa_retitle", $html);
+                $html = str_replace('</pre>', '</pre><p><button class="btn btn-primary btn-sm insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
+                echo $html;
+            ?>
             </div>
         </div>
             
