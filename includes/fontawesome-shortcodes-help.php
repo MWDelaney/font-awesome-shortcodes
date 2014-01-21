@@ -1,7 +1,13 @@
 <?php
 
 // We need a function that can add ids to HTML header tags
+function fa_retitle($match) {
+    list($_unused, $h3, $title) = $match;
 
+    $id = strtolower(strtr($title, " .", "--"));
+
+    return "<$h3 id='$id'>$title</$h3>";
+}
 $thisfile = realpath(dirname(__FILE__));
 # Install PSR-0-compatible class autoloader
 spl_autoload_register(function($class){
