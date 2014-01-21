@@ -98,7 +98,7 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/bug"><i class="fa fa-bug"></i> fa-bug</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/building"><i class="fa fa-building"></i> fa-building</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/building-o"><i class="fa fa-building-o"></i> fa-building-o</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/bullhorn"><i class="fa fa-bullhorn"></i> fa-bullhorn</a></div>
     
@@ -153,9 +153,7 @@ $html = MarkdownExtra::defaultTransform($text);
       <div class="fa-hover col-xs-6"><a href="../icon/cog"><i class="fa fa-cog"></i> fa-cog</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/cogs"><i class="fa fa-cogs"></i> fa-cogs</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/collapse-o"><i class="fa fa-collapse-o"></i> fa-collapse-o</a></div>
-    
+        
       <div class="fa-hover col-xs-6"><a href="../icon/comment"><i class="fa fa-comment"></i> fa-comment</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/comment-o"><i class="fa fa-comment-o"></i> fa-comment-o</a></div>
@@ -184,9 +182,9 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/pencil-square-o"><i class="fa fa-edit"></i> fa-edit <span class="text-muted">(alias)</span></a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/ellipsis-horizontal"><i class="fa fa-ellipsis-horizontal"></i> fa-ellipsis-horizontal</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/ellipsis-h"><i class="fa fa-ellipsis-h"></i> fa-ellipsis-h</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/ellipsis-vertical"><i class="fa fa-ellipsis-vertical"></i> fa-ellipsis-vertical</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/ellipsis-v"><i class="fa fa-ellipsis-v"></i> fa-ellipsis-v</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/envelope"><i class="fa fa-envelope"></i> fa-envelope</a></div>
     
@@ -202,7 +200,7 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/exclamation-triangle"><i class="fa fa-exclamation-triangle"></i> fa-exclamation-triangle</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/expand-o"><i class="fa fa-expand-o"></i> fa-expand-o</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/expand"><i class="fa fa-expand"></i> fa-expand</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/external-link"><i class="fa fa-external-link"></i> fa-external-link</a></div>
     
@@ -260,7 +258,7 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/group"><i class="fa fa-group"></i> fa-group</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/hdd"><i class="fa fa-hdd"></i> fa-hdd</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/hdd-o"><i class="fa fa-hdd-o"></i> fa-hdd-o</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/headphones"><i class="fa fa-headphones"></i> fa-headphones</a></div>
     
@@ -333,9 +331,7 @@ $html = MarkdownExtra::defaultTransform($text);
       <div class="fa-hover col-xs-6"><a href="../icon/money"><i class="fa fa-money"></i> fa-money</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/moon-o"><i class="fa fa-moon-o"></i> fa-moon-o</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/move"><i class="fa fa-move"></i> fa-move</a></div>
-    
+        
       <div class="fa-hover col-xs-6"><a href="../icon/music"><i class="fa fa-music"></i> fa-music</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/pencil"><i class="fa fa-pencil"></i> fa-pencil</a></div>
@@ -377,17 +373,11 @@ $html = MarkdownExtra::defaultTransform($text);
       <div class="fa-hover col-xs-6"><a href="../icon/random"><i class="fa fa-random"></i> fa-random</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/refresh"><i class="fa fa-refresh"></i> fa-refresh</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/reorder"><i class="fa fa-reorder"></i> fa-reorder</a></div>
-    
+        
       <div class="fa-hover col-xs-6"><a href="../icon/reply"><i class="fa fa-reply"></i> fa-reply</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/reply-all"><i class="fa fa-reply-all"></i> fa-reply-all</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/resize-horizontal"><i class="fa fa-resize-horizontal"></i> fa-resize-horizontal</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/resize-vertical"><i class="fa fa-resize-vertical"></i> fa-resize-vertical</a></div>
-    
+            
       <div class="fa-hover col-xs-6"><a href="../icon/retweet"><i class="fa fa-retweet"></i> fa-retweet</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/road"><i class="fa fa-road"></i> fa-road</a></div>
@@ -522,7 +512,7 @@ $html = MarkdownExtra::defaultTransform($text);
     
       <div class="fa-hover col-xs-6"><a href="../icon/unlock"><i class="fa fa-unlock"></i> fa-unlock</a></div>
     
-      <div class="fa-hover col-xs-6"><a href="../icon/unlock-o"><i class="fa fa-unlock-o"></i> fa-unlock-o</a></div>
+      <div class="fa-hover col-xs-6"><a href="../icon/unlock-alt"><i class="fa fa-unlock-alt"></i> fa-unlock-alt</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/sort"><i class="fa fa-unsorted"></i> fa-unsorted <span class="text-muted">(alias)</span></a></div>
     
@@ -879,9 +869,7 @@ $html = MarkdownExtra::defaultTransform($text);
       <div class="fa-hover col-xs-6"><a href="../icon/fast-forward"><i class="fa fa-fast-forward"></i> fa-fast-forward</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/forward"><i class="fa fa-forward"></i> fa-forward</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/fullscreen"><i class="fa fa-fullscreen"></i> fa-fullscreen</a></div>
-    
+        
       <div class="fa-hover col-xs-6"><a href="../icon/pause"><i class="fa fa-pause"></i> fa-pause</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/play"><i class="fa fa-play"></i> fa-play</a></div>
@@ -889,11 +877,7 @@ $html = MarkdownExtra::defaultTransform($text);
       <div class="fa-hover col-xs-6"><a href="../icon/play-circle"><i class="fa fa-play-circle"></i> fa-play-circle</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/play-circle-o"><i class="fa fa-play-circle-o"></i> fa-play-circle-o</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/resize-full"><i class="fa fa-resize-full"></i> fa-resize-full</a></div>
-    
-      <div class="fa-hover col-xs-6"><a href="../icon/resize-small"><i class="fa fa-resize-small"></i> fa-resize-small</a></div>
-    
+        
       <div class="fa-hover col-xs-6"><a href="../icon/step-backward"><i class="fa fa-step-backward"></i> fa-step-backward</a></div>
     
       <div class="fa-hover col-xs-6"><a href="../icon/step-forward"><i class="fa fa-step-forward"></i> fa-step-forward</a></div>

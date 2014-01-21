@@ -1,12 +1,12 @@
 <?php
 function fontawesome_shortcodes_help_styles() {
-	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
-	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'fontawesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
+	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
+	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
 
     wp_enqueue_style( 'fontawesome-shortcodes-help' );
     wp_enqueue_style( 'fontawesome-shortcodes-help-icons' );
 
-    wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
+    wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
 	wp_enqueue_script( 'fontawesome-shortcodes-help' );
 }
 add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_help_styles' );
@@ -27,7 +27,7 @@ function add_fontawesome_button() {
 
   //append the icon
   $context .= "<a title='{$title}'
-    href='#TB_inline?width=640inlineId={$popup_url}&height=550' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
+    href='#TB_inline?width=640&height=550&inlineId={$popup_url}' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
     <img src='{$img}' style='height: 20px; position: relative; top: -2px;'></a>";
   
   echo $context;
