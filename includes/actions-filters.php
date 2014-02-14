@@ -26,8 +26,8 @@ function add_fontawesome_button() {
   $title = 'Font Awesome Shortcodes Help';
 
   //append the icon
-  $context .= "<a title='{$title}'
-    href='#TB_inline?width=640&height=550&inlineId={$popup_url}' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
+  $context = "<a title='{$title}'
+    href='#TB_inline?width=640&height=650&inlineId={$popup_url}' class='thickbox button add_media' style='padding-left: 0px; padding-right: 0px;' title='Font Awesome Shortcodes Help'>
     <img src='{$img}' style='height: 20px; position: relative; top: -2px;'></a>";
   
   echo $context;

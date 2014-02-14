@@ -8,11 +8,15 @@ function fa_retitle($match) {
 
     return "<$h3 id='$id'>$title</$h3>";
 }
-$thisfile = realpath(dirname(__FILE__));
+//$thisfile = realpath(dirname(__FILE__));
 # Install PSR-0-compatible class autoloader
-spl_autoload_register(function($class){
-    require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
-});
+//spl_autoload_register(function($class){
+//    require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+//});
+
+if(!class_exists('\Michelf\MarkdownExtra' )) {
+    require_once 'php_markdown/Michelf/MarkdownExtra.inc.php';
+}
 
 # Get Markdown class
 //use \Michelf\Markdown;
