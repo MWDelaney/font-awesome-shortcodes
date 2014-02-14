@@ -116,5 +116,6 @@ class FontawesomeShortcodes {
       do_shortcode( $content )
     );
   }
+}
 
 new FontawesomeShortcodes();
