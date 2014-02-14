@@ -51,8 +51,6 @@ class FontawesomeShortcodes {
 
   }
 
-
-
   /*--------------------------------------------------------------------------------------
     *
     * fa_icon
@@ -75,24 +73,26 @@ class FontawesomeShortcodes {
         "xclass" => false
      ), $atts));
 
-     $return  =  '<i class="fa';
-     $return .= ($type) ? ' fa-' . $type : '';
-     $return .= ($size) ? ' fa-' . $size : '';
-     $return .= ($pull) ? ' pull-' . $pull : '';
-     $return .= ($border) ? ' fa-border' : '';
-     $return .= ($spin) ? ' fa-spin' : '';
-     $return .= ($list_item) ? ' fa-li' : '';
-     $return .= ($fixed_width) ? ' fa-fw' : '';
-     $return .= ($rotate) ? ' fa-rotate-' . $rotate : '';
-     $return .= ($flip) ? ' fa-flip-' . $flip : '';
-     $return .= ($stack_size) ? ' fa-stack-' . $stack_size : '';
-     $return .= ($inverse) ? ' fa-inverse' : '';
-     $return .= ($xclass) ? ' ' . $xclass : '';
-     $return .= '"></i>';
-
-     return $return;
+    $class  = 'fa';
+    $class .= ( $type )         ? ' fa-' . $type : '';
+    $class .= ( $size )         ? ' fa-' . $size : '';
+    $class .= ( $pull )         ? ' pull-' . $pull : '';
+    $class .= ( $border )       ? ' fa-border' : '';
+    $class .= ( $spin )         ? ' fa-spin' : '';
+    $class .= ( $list_item )    ? ' fa-li' : '';
+    $class .= ( $fixed_width )  ? ' fa-fw' : '';
+    $class .= ( $rotate )       ? ' fa-rotate-' . $rotate : '';
+    $class .= ( $flip )         ? ' fa-flip-' . $flip : '';
+    $class .= ( $stack_size )   ? ' fa-stack-' . $stack_size : '';
+    $class .= ( $inverse )      ? ' fa-inverse' : '';
+    $class .= ( $xclass )   ? ' ' . $xclass : '';
+      
+    return sprintf( 
+      '<i class="%s"></i>',
+      esc_attr( $class )
+    );
   }
-    
+
   /*--------------------------------------------------------------------------------------
     *
     * fa_icon_stack
@@ -107,13 +107,14 @@ class FontawesomeShortcodes {
         "xclass" => false
      ), $atts));
       
-     $classes  =  'fa-stack';
-     $classes .= ($size) ? ' fa-' . $size : '';
+     $class  =  'fa-stack';
+     $class .= ($size) ? ' fa-' . $size : '';
 
-    return '<span class="'. $classes . '">' . do_shortcode( $content ) . '</span>';
-
+    return sprintf( 
+      '<span class="%s">%s</span>',
+      esc_attr( $class ),
+      do_shortcode( $content )
+    );
   }
-    
-}
 
 new FontawesomeShortcodes();
