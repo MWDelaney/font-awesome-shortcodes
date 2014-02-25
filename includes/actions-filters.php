@@ -14,7 +14,7 @@ function fontawesome_shortcodes_help_styles() {
 	wp_enqueue_script( 'fontawesome-shortcodes-help' );
 }
 add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_font' );
-add_action( 'edit_form_after_editor', 'fontawesome_shortcodes_help_styles' );
+add_action( 'edit_form_top', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
