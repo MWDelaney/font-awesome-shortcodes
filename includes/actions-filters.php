@@ -1,15 +1,20 @@
 <?php
+function fontawesome_shortcodes_font() {
+    wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
+    wp_enqueue_style( 'fa-font' );
+}
 function fontawesome_shortcodes_help_styles() {
-	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
-	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'fontawesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
+	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
+	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
 
     wp_enqueue_style( 'fontawesome-shortcodes-help' );
     wp_enqueue_style( 'fontawesome-shortcodes-help-icons' );
 
-    wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'fontawesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
+    wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
 	wp_enqueue_script( 'fontawesome-shortcodes-help' );
 }
-add_action( 'edit_form_top ', 'fontawesome_shortcodes_help_styles' );
+add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_font' );
+add_action( 'edit_form_after_editor', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
@@ -24,7 +29,7 @@ function add_fontawesome_button() {
 
   //append the icon
   printf(
-    '<a title="%1$s" href="%2$s" class="thickbox button add_media" style="padding-left: 0px; padding-right: 0px;"><span class="bs_bootstrap-logo wp-media-buttons-icon"></span></a>',
+    '<a title="%1$s" href="%2$s" class="thickbox button add_media" style="padding-left: 0px; padding-right: 0px;" title="%1$s"><span class="fa_font-awesome-logo wp-media-buttons-icon"></span></a>',
     esc_attr( $title ),
     esc_url( '#TB_inline?width=640&height=650&inlineId=' . $popup_id )
     //sprintf( '<img src="%s" style="height: 20px; position: relative; top: -2px;">', esc_url( $img ) )
