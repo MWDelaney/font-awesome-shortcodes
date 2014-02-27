@@ -1054,7 +1054,7 @@ $html = MarkdownExtra::defaultTransform($text);
                 $html = preg_replace('/(<a href="http:[^"]+")>/is','\\1 target="_blank">',$html);
                 $html = str_replace('<table>', '<table class="table table-striped">', $html);
                 $html = str_replace('<ul>', '<div class="list-group">', $html);
-                $html = str_replace('</ul>', '</div">', $html);
+                $html = str_replace('</ul>', '</div>', $html);
                 $html = str_replace('<li><a ', '<a class="list-group-item" ', $html);
                 $html = str_replace('</li>', '', $html);
                 $html = str_replace('href="#', 'href="#fa-', $html);
