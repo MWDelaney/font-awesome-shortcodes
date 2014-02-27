@@ -3,7 +3,7 @@
 Plugin Name: Font Awesome Shortcodes
 Plugin URI: https://github.com/FoolsRun/fontawesome-shortcodes
 Description: The plugin adds a shortcodes for all Font Awesome icons.
-Version: 4.0.3.5
+Version: 4.0.3.6
 Author: M. W. Delaney
 Author URI: 
 License: GPL2
