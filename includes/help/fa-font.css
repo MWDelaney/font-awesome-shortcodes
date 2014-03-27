@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Bootstrap-Shortcodes-for-WordPress';
+	font-family: 'bss4wp';
 	src:url('fonts/Bootstrap-Shortcodes-for-WordPress.eot?-o1r0ap');
 	src:url('fonts/Bootstrap-Shortcodes-for-WordPress.eot?#iefix-o1r0ap') format('embedded-opentype'),
 		url('fonts/Bootstrap-Shortcodes-for-WordPress.woff?-o1r0ap') format('woff'),
@@ -9,8 +9,13 @@
 	font-style: normal;
 }
 
-[class^="fa_"], [class*=" fa_"] {
-	font-family: 'Bootstrap-Shortcodes-for-WordPress' !important;
+.fa_font-awesome-logo {
+    padding: 0 3px;
+}
+.fa_font-awesome-logo:before {
+    font-family: 'bss4wp' !important;
+	content: "\e601" !important;
+    color: #1fa67a !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -21,12 +26,4 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-.fa_font-awesome-logo {
-    padding: 0 3px;
-}
-.fa_font-awesome-logo:before {
-    font-family: 'Bootstrap-Shortcodes-for-WordPress' !important;
-	content: "\e601" !important;
-    color: #1fa67a !important;
 }
