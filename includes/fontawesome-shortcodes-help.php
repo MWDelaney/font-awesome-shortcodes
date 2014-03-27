@@ -29,11 +29,11 @@ $html = MarkdownExtra::defaultTransform($text);
 <script>
     jQuery(document).ready(function() {
         jQuery("#selector .panel-body a").click(function() {
-            event.preventDefault();
             var icon = jQuery( "i", this ).attr('class').replace('fa fa-', '');
             var sendto = "[fa type=\"" + icon + "\"]";
             var win = window.dialogArguments || opener || parent || top;
             win.send_to_editor(sendto);
+            return false;
         });
         
         jQuery(".fa-insert-code").click(function() {
