@@ -14,7 +14,7 @@ function fa_retitle($match) {
 //    require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
 //});
 
-$html = file_get_contents(dirname(__FILE__) . '/help/readme.html');
+$html = file_get_contents(dirname(__FILE__) . '/help/README.html');
 ?>
 
 <script>
