@@ -1,0 +1,139 @@
+<h1 id="font-awesome-shortcodes-for-wordpress">Font Awesome Shortcodes for WordPress</h1>
+<p>This is a plugin for WordPress that adds shortcodes for easier use of the Font Awesome icons in your content.</p>
+<h2 id="requirements">Requirements</h2>
+<p>This plugin won't do anything if you don't have WordPress theme built with <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. <strong>The plugin does not include Font Awesome</strong>.</p>
+<p>The plugin is tested to work with <code>Font Awesome version 4.0</code> and <code>WordPress 3.9</code>.</p>
+<h2 id="supported-shortcodes">Supported shortcodes</h2>
+<ul>
+<li><a href="#icons">Icons</a></li>
+<li><a href="#icon-stacks">Icon Stacks</a></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<h3 id="icons">Icons</h3>
+<pre><code>[fa type="exclamation"]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>The type of icon you want to display</td>
+<td>required</td>
+<td>See Font Awesome docs</td>
+<td>none</td>
+</tr>
+<tr>
+<td>size</td>
+<td>Icon size</td>
+<td>optional</td>
+<td>lg, 2x 3x, 4x, 5x</td>
+<td>false</td>
+</tr>
+<tr>
+<td>border</td>
+<td>Whether the font is displayed using the "bordered" style</td>
+<td>optional</td>
+<td>true, false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>spin</td>
+<td>Whether the font is displayed spinning</td>
+<td>optional</td>
+<td>true, false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>list_item</td>
+<td>Set "true" if the icon is within a list item for better spacing</td>
+<td>optional</td>
+<td>true, false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>fixed_width</td>
+<td>Set "true" if the icon should keep a fixed width for spacing in a menu</td>
+<td>optional</td>
+<td>true, false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>rotate</td>
+<td>Rotate the icon a number of degrees</td>
+<td>optional</td>
+<td>normal, 90, 180, 270</td>
+<td>false</td>
+</tr>
+<tr>
+<td>flip</td>
+<td>Flip the icon vertically or horizontally</td>
+<td>optional</td>
+<td>vertical, horizontal</td>
+<td>false</td>
+</tr>
+<tr>
+<td>stack_size</td>
+<td>If this icon is in a stack, what size is it?</td>
+<td>optional</td>
+<td>lg, 2x 3x, 4x, 5x</td>
+<td>false</td>
+</tr>
+<tr>
+<td>inverse</td>
+<td>Whether this icon's color should be inverted (useful in stacks)</td>
+<td>optional</td>
+<td>true, false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>xclass</td>
+<td>Any extra classes you want to add</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">Icon Reference</a>.</p>
+<h3 id="icon-stacks">Icon Stacks</h3>
+<pre><code>[fa-stack size="lg"] 
+    [fa type="circle" stack_size="2x"]
+    [fa type="flag" inverse="true" stack_size="1x"]
+[/fa-stack]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>Icon size</td>
+<td>optional</td>
+<td>lg, 2x 3x, 4x, 5x</td>
+<td>false</td>
+</tr>
+<tr>
+<td>xclass</td>
+<td>Any extra classes you want to add</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://fortawesome.github.io/Font-Awesome/examples/">Font Awesome documentation</a>.</p>
