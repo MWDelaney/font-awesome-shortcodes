@@ -6,12 +6,17 @@ function fontawesome_shortcodes_font() {
 function fontawesome_shortcodes_help_styles() {
 	wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
 	wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
+    wp_register_style( 'bootstrap-modal', plugins_url( 'font-awesome-shortcodes/includes/help/css/bootstrap-modal.css' ) );
 
     wp_enqueue_style( 'fontawesome-shortcodes-help' );
     wp_enqueue_style( 'fontawesome-shortcodes-help-icons' );
 
-    wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
-	wp_enqueue_script( 'fontawesome-shortcodes-help' );
+    //wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
+    wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
+    
+	//wp_enqueue_script( 'fontawesome-shortcodes-help' );
+	wp_enqueue_script( 'bootstrap' );
+
 }
 add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_font' );
 add_action( 'edit_form_top', 'fontawesome_shortcodes_help_styles' );
@@ -22,16 +27,19 @@ add_filter('the_content', 'fa_fix_shortcodes');
 function add_fontawesome_button() {
   
   //the id of the container I want to show in the popup
-  $popup_id = 'fontawesome-shortcodes-help-popup';
+  $popup_id = 'fontawesome-shortcodes-help';
   
   //our popup's title
   $title = 'Font Awesome Shortcodes Help';
 
   //append the icon
-  printf(
-    '<a title="%1$s" href="%2$s" class="thickbox button add_media font-awesome-shortcode-button" style="padding-left: 0px; padding-right: 0px;" title="%1$s"><span class="fa_font-awesome-logo wp-media-buttons-icon"></span></a>',
+  //append the icon
+ printf(
+    '<a data-toggle="modal" data-target="#fontawesome-shortcodes-help" title="%2$s" href="%3$s" class="%4$s" style="padding-left: 0px; padding-right: 0px;"><span class="fa_font-awesome-logo wp-media-buttons-icon"></span></a>',
+    esc_attr( $popup_id ),
     esc_attr( $title ),
-    esc_url( '#TB_inline?width=640&height=650&inlineId=' . $popup_id )
+    esc_url( '#' ),
+    esc_attr( 'button add_media font-awesome-shortcodes-button')
     //sprintf( '<img src="%s" style="height: 20px; position: relative; top: -2px;">', esc_url( $img ) )
   );
 }

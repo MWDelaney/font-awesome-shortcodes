@@ -1,3 +1,17 @@
+#fontawesome-shortcodes-help h1,
+#fontawesome-shortcodes-help h1+p {
+    display: none;
+}
+#fontawesome-shortcodes-help .nav-tabs {
+    border-bottom: 0px !important;
+}
+#fontawesome-shortcodes-help .nav > li > a {
+    padding: 5px 10px !important;
+}
+#fontawesome-shortcodes-help .modal-dialog {
+    margin: 40px auto 20px auto !important;
+}
+
 #fontawesome-shortcodes-help a:link,
 #fontwesome-shortcodes-help a:visited {
     font-size: 14px;

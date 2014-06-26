@@ -24,6 +24,7 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
             var sendto = "[fa type=\"" + icon + "\"]";
             var win = window.dialogArguments || opener || parent || top;
             win.send_to_editor(sendto);
+            jQuery('#fontawesome-shortcodes-help').modal('hide');
             return false;
         });
         
@@ -44,24 +45,30 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
     });
 </script>
 <script type="text/javascript">
-    jQuery( '.font-awesome-shortcodes-button' ).each( function( index, value ) {
-    var h = window.innerHeight * .85;
-    var href = jQuery( this ).attr('href');
-    var find = 'height=650';
-    var replace = '&height='+h;
-    href = href.replace( find, replace )
-    jQuery( this ).attr( 'href', href );
-    } );
+  jQuery(document).ready(faajustamodal);
+  jQuery(window).resize(faajustamodal);
+  function faajustamodal() {
+    var altura = jQuery(window).height() - 155; //value corresponding to the modal heading + footer
+    jQuery(".ativa-scroll").css({"height":altura,"overflow-y":"auto"});
+  }
 </script>
 
-<div style="display:none;" id="fontawesome-shortcodes-help-popup">
-    <div id="fontawesome-shortcodes-help">
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#selector" data-toggle="tab">Icon Selector</a></li>
-            <li><a href="#documentation" data-toggle="tab">Plugin Documentation</a></li>
-        </ul>
-        <div class="tab-content">
-      <div class="tab-pane active" id="selector">
+<div id="fontawesome-shortcodes-help" class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>Font Awesome Shortcodes Help</h4>  
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#selector" data-toggle="tab">Icon Selector</a></li>
+                    <li><a href="#documentation" data-toggle="tab">Plugin Documentation</a></li>
+                </ul>
+        </div>
+      <div class="modal-body ativa-scroll">
+            <div>
+
+        <div id="fa-top" class="tab-content">
+            <div class="tab-pane active" id="selector">
           
               <p class="alert alert-warning" style="margin-top: 20px;">Click an icon to automatically insert it into the WordPress editor.</p>
             <div class="list-group">
@@ -99,6 +106,9 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
             ?>
             </div>
         </div>
-            
-</div>
-</div>
+            </div>
+        </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
