@@ -13,7 +13,7 @@ The plugin is tested to work with ```Font Awesome version 4.1``` and ```WordPres
 * [Icons](#icons)
 * [Icon Stacks](#icon-stacks)
 
-## Usage
+### Usage
 
 ### Icons
 	[fa type="exclamation"]
@@ -34,6 +34,7 @@ xclass | Any extra classes you want to add | optional | any text | none
 
 [Icon Reference](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
 
+* * *
 
 ### Icon Stacks
 	[fa-stack size="lg"] 

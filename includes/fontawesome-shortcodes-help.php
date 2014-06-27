@@ -40,7 +40,10 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
             var win = window.dialogArguments || opener || parent || top;
             win.send_to_editor(paras);
         });
-
+        jQuery('#fontawesome-shortcodes-help h2').each(function(){
+            var id = jQuery(this).attr("id");
+            jQuery(this).removeAttr("id").nextUntil("h2").andSelf().wrapAll('<div class="tab-pane" id="fa-' + id + '" />');
+        });
 
     });
 </script>
@@ -60,15 +63,16 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4>Font Awesome Shortcodes Help</h4>  
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#selector" data-toggle="tab">Icon Selector</a></li>
-                    <li><a href="#documentation" data-toggle="tab">Plugin Documentation</a></li>
+                    <li class="active"><a href="#fa-selector" data-toggle="tab">Icon Selector</a></li>
+                    <li><a href="#fa-supported-shortcodes" data-toggle="tab">Plugin Documentation</a></li>
+                    <li><a href="#fa-requirements" data-toggle="tab">System Requirements</a></li>
                 </ul>
         </div>
       <div class="modal-body ativa-scroll">
             <div>
 
         <div id="fa-top" class="tab-content">
-            <div class="tab-pane active" id="selector">
+            <div class="tab-pane active" id="fa-selector">
           
               <p class="alert alert-warning" style="margin-top: 20px;">Click an icon to automatically insert it into the WordPress editor.</p>
             <div class="list-group">
@@ -90,7 +94,6 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
                 
             </div>  
             
-            <div class="tab-pane" id="documentation">
             <?php
                 # Put HTML content in the document
                 $html = preg_replace('/(<a href="http:[^"]+")>/is','\\1 target="_blank">',$html);
@@ -100,11 +103,11 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
                 $html = str_replace('<li><a ', '<a class="list-group-item" ', $html);
                 $html = str_replace('</li>', '', $html);
                 $html = str_replace('href="#', 'href="#fa-', $html);
+                $html = str_replace('<hr>', '<hr><a class="btn btn-link btn-default pull-right" href="#fa-top"><i class="text-muted glyphicon glyphicon-arrow-up"></i></a>', $html);
                 $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "fa_retitle", $html);
-                $html = str_replace('</pre>', '</pre><p><button class="btn btn-primary btn-sm fa-insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
+                $html = str_replace('</pre>', '</pre><p><button data-dismiss="modal" class="btn btn-primary btn-sm insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
                 echo $html;
             ?>
-            </div>
         </div>
             </div>
         </div>
