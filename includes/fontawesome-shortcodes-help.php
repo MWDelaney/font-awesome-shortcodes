@@ -19,7 +19,7 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
 
 <script>
     jQuery(document).ready(function() {
-        jQuery("#selector .icon-lists a").click(function() {
+        jQuery("#fa-selector .icon-lists a").click(function() {
             var icon = jQuery( "i", this ).attr('class').replace('fa fa-', '');
             var sendto = "[fa type=\"" + icon + "\"]";
             var win = window.dialogArguments || opener || parent || top;
