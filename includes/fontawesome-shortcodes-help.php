@@ -102,7 +102,6 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
                 $html = str_replace('</ul>', '</div>', $html);
                 $html = str_replace('<li><a ', '<a class="list-group-item" ', $html);
                 $html = str_replace('</li>', '', $html);
-                $html = str_replace('href="#', 'href="#fa-', $html);
                 $html = str_replace('<hr>', '<hr><a class="btn btn-link btn-default pull-right" href="#fa-top"><i class="text-muted glyphicon glyphicon-arrow-up"></i></a>', $html);
                 $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "fa_retitle", $html);
                 $html = str_replace('</pre>', '</pre><p><button data-dismiss="modal" class="btn btn-primary btn-sm insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
