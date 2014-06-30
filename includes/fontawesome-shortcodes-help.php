@@ -1,19 +1,4 @@
 <?php
-
-// We need a function that can add ids to HTML header tags
-function fa_retitle($match) {
-    list($_unused, $h3, $title) = $match;
-
-    $id = "fa-" . strtolower(strtr($title, " .", "--"));
-
-    return "<$h3 id='$id'>$title</$h3>";
-}
-//$thisfile = realpath(dirname(__FILE__));
-# Install PSR-0-compatible class autoloader
-//spl_autoload_register(function($class){
-//    require 'php_markdown/' . preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
-//});
-
 $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
 ?>
 
@@ -102,8 +87,9 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
                 $html = str_replace('</ul>', '</div>', $html);
                 $html = str_replace('<li><a ', '<a class="list-group-item" ', $html);
                 $html = str_replace('</li>', '', $html);
+                $html = str_replace('href="#', 'href="#fa-', $html);
                 $html = str_replace('<hr>', '<hr><a class="btn btn-link btn-default pull-right" href="#fa-top"><i class="text-muted glyphicon glyphicon-arrow-up"></i></a>', $html);
-                $html = preg_replace_callback("#<(h[1-6])>(.*?)</\\1>#", "fa_retitle", $html);
+                $html = str_replace('<h3 id="', '<h3 id="fa-', $html);
                 $html = str_replace('</pre>', '</pre><p><button data-dismiss="modal" class="btn btn-primary btn-sm insert-code">Insert Example <i class="glyphicon glyphicon-share-alt"></i></button></p>', $html);
                 echo $html;
             ?>
