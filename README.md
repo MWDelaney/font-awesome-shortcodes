@@ -8,7 +8,7 @@ This plugin won't do anything if you don't have WordPress theme built with [Font
 
 The plugin is tested to work with ```Font Awesome version 4.1``` and ```WordPress 3.9```.
 
-## Supported shortcodes
+## Shortcode Reference
 
 * [Icons](#icons)
 * [Icon Stacks](#icon-stacks)

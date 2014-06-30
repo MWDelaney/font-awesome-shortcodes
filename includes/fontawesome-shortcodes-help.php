@@ -64,7 +64,7 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
                 <h4>Font Awesome Shortcodes Help</h4>  
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#fa-selector" data-toggle="tab">Icon Selector</a></li>
-                    <li><a href="#fa-supported-shortcodes" data-toggle="tab">Supported Shortcodes</a></li>
+                    <li><a href="#fa-shortcode-reference" data-toggle="tab">Shortcode Reference</a></li>
                     <li><a href="#fa-requirements" data-toggle="tab">System Requirements</a></li>
                 </ul>
         </div>
