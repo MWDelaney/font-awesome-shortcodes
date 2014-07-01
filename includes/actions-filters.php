@@ -1,8 +1,4 @@
 <?php
-function fontawesome_shortcodes_font() {
-    wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
-    wp_enqueue_style( 'fa-font' );
-}
 function fontawesome_shortcodes_help_styles() {
     wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
     wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
