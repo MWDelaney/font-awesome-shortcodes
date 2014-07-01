@@ -10,11 +10,9 @@ function fontawesome_shortcodes_help_styles() {
 
     wp_enqueue_style( 'fontawesome-shortcodes-help' );
     wp_enqueue_style( 'fontawesome-shortcodes-help-icons' );
+    wp_enqueue_style( 'bootstrap-modal' );
 
-    //wp_register_script( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ), 'jquery' );
     wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
-    
-	//wp_enqueue_script( 'fontawesome-shortcodes-help' );
 	wp_enqueue_script( 'bootstrap' );
 
 }
@@ -52,7 +50,7 @@ add_action('media_buttons', 'add_fontawesome_button', 11);
 function fontawesome_shortcodes_help() {
     include('fontawesome-shortcodes-help.php');
 }
-add_action( 'admin_footer', 'fontawesome_shortcodes_help' );
+add_action( 'edit_form_after_editor', 'fontawesome_shortcodes_help' );
 
 
 ?>
