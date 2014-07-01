@@ -3,7 +3,7 @@ Contributors: FoolsRun
 Tags: bootstrap, font awesome, shortcode, shortcodes, icon, icons, bootstrap
 Requires at least: 3.8
 Tested up to: 3.9
-Stable tag: 4.1.1
+Stable tag: 4.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ If you like this plugin, check out our companion plugin for Bootstrap, [Bootstra
 No, we assume you are already working with a WordPress theme that includes the Font Awesome libraries.
 
 == Changelog ==
+
+= 4.1.2 = 
+* Fix display problem where the Font Awesome Shortcodes help modal was appearing on pages it shouldn't
 
 = 4.1 =
 * This release features a brand new, much easier to use popup for the documentation. We're now using Bootstrap's "modal" component rather than the soon-to-be-retired WordPress Thickbox. We've also split the documentation up into tabs so that the technical information about the plugin isn't cluttering up the shortcode reference material. This should make the plugin a little less scary for end-users.
