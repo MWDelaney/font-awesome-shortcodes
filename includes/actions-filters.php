@@ -1,4 +1,13 @@
 <?php
+
+function font_awesome_shortcodes_styles_all() {
+    wp_register_style( 'font-awesome-shortcodes-help-all', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help-all.css' ) );
+    wp_enqueue_style( 'font-awesome-shortcodes-help-all' );
+}
+
+add_action( 'admin_enqueue_scripts', 'font_awesome_shortcodes_styles_all' );
+
+
 function fontawesome_shortcodes_help_styles() {
     wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
     wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
@@ -14,7 +23,7 @@ function fontawesome_shortcodes_help_styles() {
 	wp_enqueue_script( 'bootstrap' );
 
 }
-add_action( 'admin_enqueue_scripts', 'fontawesome_shortcodes_help_styles' );
+add_action( 'media_buttons', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
