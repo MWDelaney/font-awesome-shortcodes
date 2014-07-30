@@ -12,7 +12,8 @@
 .fa_font-awesome-logo {
     padding: 0 3px;
 }
-.fa_font-awesome-logo:before {
+.fa_font-awesome-logo:before,
+.mce-i-fontawesome-shortcodes:before {
     font-family: 'bss4wp' !important;
 	content: "\e601" !important;
     color: #1fa67a !important;
@@ -26,4 +27,8 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+#wp_fs_fontawesome-shortcodes {
+    font-size: 14px !important;
 }

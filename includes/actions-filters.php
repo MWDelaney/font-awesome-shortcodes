@@ -58,5 +58,18 @@ function fontawesome_shortcodes_help() {
 }
 add_action( 'admin_footer', 'fontawesome_shortcodes_help' );
 
+// Add the Font Awesome Shortcodes button to Distraction Free Writing mode 
+function fa_fullscreenbuttons($buttons) {
 
+	$buttons[] = 'separator';
+
+	$buttons['fontawesome-shortcodes'] = array(
+		'title' => __('Font Awesome Shortcodes Help'),
+		'onclick' => "jQuery('#fontawesome-shortcodes-help').modal('show');",
+		'both' => false 
+	);
+
+	return $buttons;
+}
+add_action ('wp_fullscreen_buttons', 'fa_fullscreenbuttons');
 ?>
