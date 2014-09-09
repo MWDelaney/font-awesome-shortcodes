@@ -13,8 +13,7 @@
   outline: 0;
   background-color: transparent;
   width: auto;
-  margin-left: auto;
-
+  margin: 0 auto;
 }
 
 #fontawesome-shortcodes-help .modal-body {
