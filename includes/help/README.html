@@ -3,10 +3,11 @@
 <h2 id="requirements">Requirements</h2>
 <p>This plugin won&#39;t do anything if you don&#39;t have WordPress theme built with <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. <strong>The plugin does not include Font Awesome</strong>.</p>
 <p>The plugin is tested to work with <code>Font Awesome version 4.1</code> and <code>WordPress 3.9</code>.</p>
-<h2 id="shortcode-reference">Supported shortcodes</h2>
+<h2 id="shortcode-reference">Shortcode Reference</h2>
 <ul>
 <li><a href="#icons">Icons</a></li>
 <li><a href="#icon-stacks">Icon Stacks</a></li>
+<li><a href="#icon-lists">Icon Lists</a></li>
 </ul>
 <h3 id="usage">Usage</h3>
 <h3 id="icons">Icons</h3>
@@ -52,7 +53,7 @@
 </tr>
 <tr>
 <td>list_item</td>
-<td>Set &quot;true&quot; if the icon is within a list item for better spacing</td>
+<td>Set &quot;true&quot; if the icon is within a list item for better spacing. Be sure to wrap the list in [fa-ul] (see below)</td>
 <td>optional</td>
 <td>true, false</td>
 <td>false</td>
@@ -126,6 +127,32 @@
 <td>lg, 2x 3x, 4x, 5x</td>
 <td>false</td>
 </tr>
+<tr>
+<td>xclass</td>
+<td>Any extra classes you want to add</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://fortawesome.github.io/Font-Awesome/examples/">Font Awesome documentation</a>.</p>
+<hr>
+<h3 id="icon-lists">Icon Lists</h3>
+<pre><code>[fa-ul] 
+    Standard HTML or WordPress list goes here.
+[/fa-ul]</code></pre>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>xclass</td>
 <td>Any extra classes you want to add</td>

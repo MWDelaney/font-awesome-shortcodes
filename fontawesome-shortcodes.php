@@ -48,6 +48,7 @@ class FontawesomeShortcodes {
 
     add_shortcode('fa', array( $this, 'fa' ));
     add_shortcode('fa-stack', array( $this, 'fa_stack' ));
+    add_shortcode('fa-ul', array( $this, 'fa_ul' ));
 
   }
 
@@ -109,12 +110,75 @@ class FontawesomeShortcodes {
       
      $class  =  'fa-stack';
      $class .= ($size) ? ' fa-' . $size : '';
+     $class .= ( $xclass )   ? ' ' . $xclass : '';
 
     return sprintf( 
       '<span class="%s">%s</span>',
       esc_attr( $class ),
       do_shortcode( $content )
     );
+  }
+    
+ /*--------------------------------------------------------------------------------------
+    *
+    * fa_ul
+    *
+    *
+    *-------------------------------------------------------------------------------------*/
+  function fa_ul( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+      "xclass"  => false,
+    ), $atts ) );
+      
+    $class  = "fa-ul";
+    $class .= ($xclass) ? ' ' . $xclass : '';
+
+    $return = '';
+    $tag = array('ul');
+    $content = do_shortcode($content);
+    $return .= $this->scrape_dom_element($tag, $content, $class, $title, $data);
+    return $return;
+    
+  }
+    
+/*--------------------------------------------------------------------------------------
+    *
+    * Scrape the shortcode's contents for a particular DOMDocument tag or tags, pull them out, apply attributes, and return just the tags.
+    *
+    *-------------------------------------------------------------------------------------*/
+  function scrape_dom_element( $tag, $content, $class, $title, $data = null ) {
+
+      $previous_value = libxml_use_internal_errors(TRUE);
+      
+      $dom = new DOMDocument;
+      $dom->loadHTML($content);
+      
+      libxml_clear_errors();
+      libxml_use_internal_errors($previous_value);
+      foreach ($tag as $find) {
+          $tags = $dom->getElementsByTagName($find);
+          foreach ($tags as $find_tag) {
+              $outputdom = new DOMDocument;
+              $new_root = $outputdom->importNode($find_tag, true);
+              $outputdom->appendChild($new_root);
+
+              if(is_object($outputdom->documentElement)) {
+                  $outputdom->documentElement->setAttribute('class', $outputdom->documentElement->getAttribute('class') . ' ' . esc_attr( $class ));
+                  if( $title ) {
+                      $outputdom->documentElement->setAttribute('title', $title );
+                  }
+                  if( $data ) {
+                      $data = explode( '|', $data );
+                      foreach( $data as $d ):
+                        $d = explode(',',$d);    
+                        $outputdom->documentElement->setAttribute('data-'.$d[0],trim($d[1]));
+                      endforeach;
+                  }
+              }
+            return $outputdom->saveHTML($outputdom->documentElement);
+
+          }
+        }
   }
 }
 
