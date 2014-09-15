@@ -72,4 +72,12 @@ function fa_fullscreenbuttons($buttons) {
 	return $buttons;
 }
 add_action ('wp_fullscreen_buttons', 'fa_fullscreenbuttons');
+
+add_filter("gform_noconflict_styles", "fa_register_script");
+function fa_register_script($scripts){
+
+    //registering my script with Gravity Forms so that it gets enqueued when running on no-conflict mode
+    $scripts[] = "font-awesome-shortcodes-help-all";
+    return $scripts;
+}
 ?>
