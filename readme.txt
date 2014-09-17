@@ -2,8 +2,8 @@
 Contributors: FoolsRun
 Tags: bootstrap, font awesome, shortcode, shortcodes, icon, icons, bootstrap
 Requires at least: 3.8
-Tested up to: 3.9
-Stable tag: 4.1.2
+Tested up to: 4.0
+Stable tag: 4.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,16 @@ If you like this plugin, check out our companion plugin for Bootstrap, [Bootstra
 No, we assume you are already working with a WordPress theme that includes the Font Awesome libraries.
 
 == Changelog ==
+
+= 4.1.3 = 
+* Added [fa-ul] shortcode (see documentation for details).
+* Add Font Awesome shortcode help popup button to Distraction Free Writing Mode toolbar
+* Better responsive styles for help popup button on smaller screens
+* Fix display problems for WP-Engine users
+* Better handling of Gravity Forms' "No Conflict Mode"
+* Fix conflict with All-In-One Events Calendar
+* Fix for some situations where the help-tab popup would be behind other popup elements.
+* WordPress 4.0 support!
 
 = 4.1.2 = 
 * Fix display problem where the Font Awesome Shortcodes help modal was appearing on pages it shouldn't
