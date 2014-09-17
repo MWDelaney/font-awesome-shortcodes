@@ -35,9 +35,26 @@
     margin: 40px auto 20px auto !important;
 }
 
-#fontawesome-shortcodes-help a:link,
-#fontwesome-shortcodes-help a:visited {
+#fontawesome-shortcodes-help  a:link,
+#fontawesome-shortcodes-help a:visited {
+    color: #428bca;
     font-size: 14px;
+}
+
+.sticky-menu #TB_window {
+    background-color: #fff;
+}
+
+.font-awesome-shortcodes-button {
+    padding-left: auto !important;
+    padding-right: 8px !important;
+}
+
+@media (min-width: 782px) {
+    .font-awesome-shortcodes-button {
+        padding-left: 0px !important; 
+        padding-right: 0px !important;
+    }
 }
 
   #fontawesome-shortcodes-help .fontawesome-icon-list .fa-hover { font-size: 14px; }
