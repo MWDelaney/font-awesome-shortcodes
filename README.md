@@ -54,9 +54,10 @@ xclass | Any extra classes you want to add | optional | any text | none
 
 ### Icon Lists
 When using `list_item="true"` for icons, be sure to wrap the list in `[fa-ul]` and `[/fa-ul]`.
+
 	[fa-ul] 
-        Standard HTML or WordPress list goes here.
-    [/fa-ul]
+		Standard HTML or WordPress list goes here.
+	[/fa-ul]
 
 Parameter | Description | Required | Values | Default
 --- | --- | --- | --- | ---
