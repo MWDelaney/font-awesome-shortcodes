@@ -45,7 +45,7 @@ function add_fontawesome_button() {
         //append the icon
         //append the icon
         printf(
-        '<a data-toggle="modal" data-target="#fontawesome-shortcodes-help" title="%2$s" href="%3$s" class="%4$s" style="padding-left: 0px; padding-right: 0px;"><span class="fa_font-awesome-logo wp-media-buttons-icon"></span></a>',
+        '<a data-toggle="modal" data-target="#fontawesome-shortcodes-help" title="%2$s" href="%3$s" class="%4$s"><span class="fa_font-awesome-logo wp-media-buttons-icon"></span></a>',
         esc_attr( $popup_id ),
         esc_attr( $title ),
         esc_url( '#' ),
