@@ -61,11 +61,13 @@ $html = file_get_contents(dirname(__FILE__) . '/help/README.html');
           
               <p class="alert alert-warning" style="margin-top: 20px;">Click an icon to automatically insert it into the WordPress editor.</p>
             <div class="list-group">
-                <a class="list-group-item" href="#new">New Icons in 4.1</a>
+                <a class="list-group-item" href="#new">New Icons in 4.2</a>
                 <a class="list-group-item" href="#web-application">Web Application Icons</a>
                 <a class="list-group-item" href="#file-type">File Type Icons</a>
                 <a class="list-group-item" href="#spinner">Spinner Icons</a>
                 <a class="list-group-item" href="#form-control">Form Control Icons</a>
+                <a class="list-group-item" href="#payment">Payment Icons</a>
+                <a class="list-group-item" href="#chart">Chart Icons</a>
                 <a class="list-group-item" href="#currency">Currency Icons</a>
                 <a class="list-group-item" href="#text-editor">Text Editor Icons</a>
                 <a class="list-group-item" href="#directional">Directional Icons</a>
