@@ -58,11 +58,10 @@ class FontawesomeShortcodes {
     *
     *-------------------------------------------------------------------------------------*/
   function fa($atts, $content = null) {
-     extract(shortcode_atts(array(
+  	$atts = shortcode_atts( array(
         "type" => '',
         "size" => false,
         "pull" => false,
-        "muted" => false,
         "border" => false,
         "spin" => false,
         "list_item" => false,
@@ -72,21 +71,21 @@ class FontawesomeShortcodes {
         "stack_size" => false,
         "inverse" => false,
         "xclass" => false
-     ), $atts));
+	), $atts );
 
     $class  = 'fa';
-    $class .= ( $type )         ? ' fa-' . $type : '';
-    $class .= ( $size )         ? ' fa-' . $size : '';
-    $class .= ( $pull )         ? ' pull-' . $pull : '';
-    $class .= ( $border )       ? ' fa-border' : '';
-    $class .= ( $spin )         ? ' fa-spin' : '';
-    $class .= ( $list_item )    ? ' fa-li' : '';
-    $class .= ( $fixed_width )  ? ' fa-fw' : '';
-    $class .= ( $rotate )       ? ' fa-rotate-' . $rotate : '';
-    $class .= ( $flip )         ? ' fa-flip-' . $flip : '';
-    $class .= ( $stack_size )   ? ' fa-stack-' . $stack_size : '';
-    $class .= ( $inverse )      ? ' fa-inverse' : '';
-    $class .= ( $xclass )   ? ' ' . $xclass : '';
+    $class .= ( $atts['type'] )         ? ' fa-' . $atts['type'] : '';
+    $class .= ( $atts['size'] )         ? ' fa-' . $atts['size'] : '';
+    $class .= ( $atts['pull'] )         ? ' pull-' . $atts['pull'] : '';
+    $class .= ( $atts['border'] )       ? ' fa-border' : '';
+    $class .= ( $atts['spin'] )         ? ' fa-spin' : '';
+    $class .= ( $atts['list_item'] )    ? ' fa-li' : '';
+    $class .= ( $atts['fixed_width'] )  ? ' fa-fw' : '';
+    $class .= ( $atts['rotate'] )       ? ' fa-rotate-' . $atts['rotate'] : '';
+    $class .= ( $atts['flip'] )         ? ' fa-flip-' . $atts['flip'] : '';
+    $class .= ( $atts['stack_size'] )   ? ' fa-stack-' . $atts['stack_size'] : '';
+    $class .= ( $atts['inverse'] )      ? ' fa-inverse' : '';
+    $class .= ( $atts['xclass'] )   ? ' ' . $atts['xclass'] : '';
       
     return sprintf( 
       '<i class="%s"></i>',
@@ -103,14 +102,14 @@ class FontawesomeShortcodes {
     *
     *-------------------------------------------------------------------------------------*/
   function fa_stack( $atts, $content = null ) {
-     extract(shortcode_atts(array(
+  	$atts = shortcode_atts( array(
         "size" => false,
         "xclass" => false
-     ), $atts));
+	), $atts );
       
      $class  =  'fa-stack';
-     $class .= ($size) ? ' fa-' . $size : '';
-     $class .= ( $xclass )   ? ' ' . $xclass : '';
+     $class .= ($atts['size']) ? ' fa-' . $atts['size'] : '';
+     $class .= ( $atts['xclass'] )   ? ' ' . $atts['xclass'] : '';
 
     return sprintf( 
       '<span class="%s">%s</span>',
@@ -126,17 +125,17 @@ class FontawesomeShortcodes {
     *
     *-------------------------------------------------------------------------------------*/
   function fa_ul( $atts, $content = null ) {
-    extract( shortcode_atts( array(
-      "xclass"  => false,
-    ), $atts ) );
+  	$atts = shortcode_atts( array(
+        "xclass" => false
+	), $atts );
       
     $class  = "fa-ul";
-    $class .= ($xclass) ? ' ' . $xclass : '';
+    $class .= ($atts['xclass']) ? ' ' . $atts['xclass'] : '';
 
     $return = '';
     $tag = array('ul');
     $content = do_shortcode($content);
-    $return .= $this->scrape_dom_element($tag, $content, $class, $title, $data);
+    $return .= $this->scrape_dom_element($tag, $content, $class );
     return $return;
     
   }
@@ -146,7 +145,7 @@ class FontawesomeShortcodes {
     * Scrape the shortcode's contents for a particular DOMDocument tag or tags, pull them out, apply attributes, and return just the tags.
     *
     *-------------------------------------------------------------------------------------*/
-  function scrape_dom_element( $tag, $content, $class, $title, $data = null ) {
+  function scrape_dom_element( $tag, $content, $class, $title = '', $data = null ) {
 
       $previous_value = libxml_use_internal_errors(TRUE);
       
