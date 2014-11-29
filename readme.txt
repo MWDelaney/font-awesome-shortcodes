@@ -3,7 +3,7 @@ Contributors: FoolsRun
 Tags: bootstrap, font awesome, shortcode, shortcodes, icon, icons, bootstrap
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 4.1.3
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,8 +16,8 @@ Plenty of great WordPress plugins focus on providing or including the Font Aweso
 
 This plugin creates a simple, out of the way button just above the WordPress TinyMCE editor (next to the "Add Media" button) which pops up a handy icon-selector, and the plugin's documentation with shortcode examples for reference and handy "Insert Example" links to send the example shortcodes straight to the editor. There are no additional TinyMCE buttons to clutter up your screen, just great, easy to use shortcodes!
 
-####Updated for Font Awesome 4.1!
-Now supporting all of the new icons and aliases added in Font Awesome 4.1 and a slick new icon-picker to choose them with!
+####Updated for Font Awesome 4.2!
+Now supporting all of the new icons and aliases added in Font Awesome 4.2.
 
 If you like this plugin, check out our companion plugin for Bootstrap, [Bootstrap 3 Shortcodes](http://www.wordpress.org/plugins/bootstrap-3-shortcodes/)
 
@@ -34,6 +34,11 @@ If you like this plugin, check out our companion plugin for Bootstrap, [Bootstra
 No, we assume you are already working with a WordPress theme that includes the Font Awesome libraries.
 
 == Changelog ==
+
+= 4.2 = 
+* Icon Picker now supports new icons and aliases added in Font Awesome 4.2 (see Font Awesome site for details)
+* Better correct for conflicts with Gravity Forms --these two plugins should finally play well together
+* Removed use of extract() to better fit with WordPress's best practices.
 
 = 4.1.3 = 
 * Added [fa-ul] shortcode (see documentation for details).
