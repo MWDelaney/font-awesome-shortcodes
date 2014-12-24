@@ -10,7 +10,7 @@ add_action( 'admin_enqueue_scripts', 'font_awesome_shortcodes_styles_all' );
 
 function fontawesome_shortcodes_help_styles() {
     $screen = get_current_screen(); 
-    if($screen->parent_base != "gf_edit_forms") {
+    if($screen != null && $screen->parent_base != "gf_edit_forms") {
         wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
@@ -34,7 +34,7 @@ add_filter('the_content', 'fa_fix_shortcodes');
 function add_fontawesome_button() {
     
     $screen = get_current_screen(); 
-    if($screen->parent_base != "gf_edit_forms") {
+    if($screen != null && $screen->parent_base != "gf_edit_forms") {
   
         //the id of the container I want to show in the popup
         $popup_id = 'fontawesome-shortcodes-help';
