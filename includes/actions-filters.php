@@ -26,7 +26,6 @@ function fontawesome_shortcodes_help_styles() {
     }
 
 }
-add_action( 'media_buttons', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
@@ -58,7 +57,10 @@ function add_fontawesome_button() {
 // Create a Media Button for the help file
 //add a button to the content editor, next to the media button
 //this button will show a popup that contains inline content
-add_action('media_buttons', 'add_fontawesome_button', 11);
+if(in_array(basename($_SERVER['PHP_SELF']), array('post.php', 'page.php', 'page-new.php', 'post-new.php', 'widgets.php'))) {
+    add_action('media_buttons', 'add_fontawesome_button', 11);
+    add_action( 'media_buttons', 'fontawesome_shortcodes_help_styles' );
+}
 
 function fontawesome_shortcodes_help() {
     include('fontawesome-shortcodes-help.php');
