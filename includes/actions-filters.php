@@ -9,8 +9,6 @@ add_action( 'admin_enqueue_scripts', 'font_awesome_shortcodes_styles_all' );
 
 
 function fontawesome_shortcodes_help_styles() {
-    $screen = get_current_screen(); 
-    if($screen != null && $screen->parent_base != "gf_edit_forms") {
         wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
@@ -23,18 +21,12 @@ function fontawesome_shortcodes_help_styles() {
 
         wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
         wp_enqueue_script( 'bootstrap' );
-    }
-
 }
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
 //action to add a custom button to the content editor
 function add_fontawesome_button() {
-    
-    $screen = get_current_screen(); 
-    if($screen != null && $screen->parent_base != "gf_edit_forms") {
-  
         //the id of the container I want to show in the popup
         $popup_id = 'fontawesome-shortcodes-help';
 
@@ -51,7 +43,6 @@ function add_fontawesome_button() {
         esc_attr( 'button add_media font-awesome-shortcodes-button')
         //sprintf( '<img src="%s" style="height: 20px; position: relative; top: -2px;">', esc_url( $img ) )
         );
-    }
 }
 
 // Create a Media Button for the help file
