@@ -21,6 +21,13 @@ function fontawesome_shortcodes_help_styles() {
 
         wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
         wp_enqueue_script( 'bootstrap' );
+    
+        //Visual Composer causes problems
+        $handle = 'vc_bootstrap_js';
+        $list = 'enqueued';
+         if (wp_script_is( $handle, $list )) {
+             wp_dequeue_script( $handle );
+         }
 }
 
 add_filter('the_content', 'fa_fix_shortcodes');
