@@ -20,15 +20,56 @@ function fontawesome_shortcodes_help_styles() {
         wp_enqueue_style( 'fa-font' );
 
         wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
+        wp_register_script( 'list',  plugins_url( 'font-awesome-shortcodes/includes/help/js/list.js' ) );
         wp_enqueue_script( 'bootstrap' );
+        wp_enqueue_script( 'list' );
     
         //Visual Composer causes problems
         $handle = 'vc_bootstrap_js';
         $list = 'enqueued';
-         if (wp_script_is( $handle, $list )) {
-             wp_dequeue_script( $handle );
-         }
+        if (wp_script_is( $handle, $list )) {
+            wp_dequeue_script( $handle );
+        }
 }
+
+/**********  
+ 
+ * BEGIN Better Font-Awesome Library
+ 
+ **********/
+
+// Include the main library file. Make sure to modify the path to match your directory structure.
+require_once ( dirname( __FILE__ ) . '/better-font-awesome-library/better-font-awesome-library.php' );
+
+add_action( 'init', 'my_prefix_load_bfa' );
+/** 
+ * Initialize the Better Font Awesome Library.
+ *
+ * (see usage notes below on proper hook priority)
+ */
+function my_prefix_load_bfa() {
+
+    // Set the library initialization args (defaults shown).
+    $args = array(
+            'version' => 'latest',
+            'minified' => true,
+            'remove_existing_fa' => false,
+            'load_styles'             => true,
+            'load_admin_styles'       => false,
+            'load_shortcode'          => false,
+            'load_tinymce_plugin'     => false,
+    );
+
+    // Initialize the Better Font Awesome Library.
+    Better_Font_Awesome_Library::get_instance( $args );
+
+}
+
+/**********  
+ 
+ * END Better Font-Awesome Library
+ 
+ **********/
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
