@@ -1,0 +1,17 @@
+{
+  "name": "mwdelaney/font-awesome-shortcodes",
+  "description": "Shortcodes for Font Awesome icon font",
+  "keywords": ["wordpress", "plugin", "shortcode", "icons", "font awesome"],
+  "homepage": "https://github.com/MWDelaney/font-awesome-shortcodes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael W. Delaney",
+      "email": "michael@michaeldelaney.me"
+		}
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+  }
+}
