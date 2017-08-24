@@ -9,6 +9,10 @@ add_action( 'admin_enqueue_scripts', 'font_awesome_shortcodes_styles_all' );
 
 
 function fontawesome_shortcodes_help_styles() {
+  if ( ! function_exists( 'get_current_screen' ) )
+       return;
+    $screen = get_current_screen();
+    if($screen->parent_base != "gf_edit_forms") {
         wp_register_style( 'fa-font', plugins_url( 'font-awesome-shortcodes/includes/help/fa-font.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help', plugins_url( 'font-awesome-shortcodes/includes/help/css/fontawesome-shortcodes-help.css' ) );
         wp_register_style( 'fontawesome-shortcodes-help-icons', plugins_url( 'font-awesome-shortcodes/includes/help/css/font-awesome.min.css' ) );
@@ -20,61 +24,21 @@ function fontawesome_shortcodes_help_styles() {
         wp_enqueue_style( 'fa-font' );
 
         wp_register_script( 'bootstrap', plugins_url( 'font-awesome-shortcodes/includes/help/js/bootstrap.min.js' ) );
-        wp_register_script( 'list',  plugins_url( 'font-awesome-shortcodes/includes/help/js/list.js' ) );
         wp_enqueue_script( 'bootstrap' );
-        wp_enqueue_script( 'list' );
-    
-        //Visual Composer causes problems
-        $handle = 'vc_bootstrap_js';
-        $list = 'enqueued';
-        if (wp_script_is( $handle, $list )) {
-            wp_dequeue_script( $handle );
-        }
-}
-
-/**********  
- 
- * BEGIN Better Font-Awesome Library
- 
- **********/
-
-// Include the main library file. Make sure to modify the path to match your directory structure.
-require_once ( dirname( __FILE__ ) . '/better-font-awesome-library/better-font-awesome-library.php' );
-
-add_action( 'init', 'my_prefix_load_bfa' );
-/** 
- * Initialize the Better Font Awesome Library.
- *
- * (see usage notes below on proper hook priority)
- */
-function my_prefix_load_bfa() {
-
-    // Set the library initialization args (defaults shown).
-    $args = array(
-            'version' => 'latest',
-            'minified' => true,
-            'remove_existing_fa' => false,
-            'load_styles'             => true,
-            'load_admin_styles'       => false,
-            'load_shortcode'          => false,
-            'load_tinymce_plugin'     => false,
-    );
-
-    // Initialize the Better Font Awesome Library.
-    Better_Font_Awesome_Library::get_instance( $args );
+    }
 
 }
-
-/**********  
- 
- * END Better Font-Awesome Library
- 
- **********/
+add_action( 'media_buttons', 'fontawesome_shortcodes_help_styles' );
 
 add_filter('the_content', 'fa_fix_shortcodes');
 
 //action to add a custom button to the content editor
 function add_fontawesome_button() {
+  if ( ! function_exists( 'get_current_screen' ) )
+       return;
+    $screen = get_current_screen();
+    if($screen->parent_base != "gf_edit_forms") {
+
         //the id of the container I want to show in the popup
         $popup_id = 'fontawesome-shortcodes-help';
 
@@ -91,22 +55,20 @@ function add_fontawesome_button() {
         esc_attr( 'button add_media font-awesome-shortcodes-button')
         //sprintf( '<img src="%s" style="height: 20px; position: relative; top: -2px;">', esc_url( $img ) )
         );
+    }
 }
 
 // Create a Media Button for the help file
 //add a button to the content editor, next to the media button
 //this button will show a popup that contains inline content
-if(in_array(basename($_SERVER['PHP_SELF']), array('post.php', 'page.php', 'page-new.php', 'post-new.php', 'widgets.php'))) {
-    add_action('media_buttons', 'add_fontawesome_button', 11);
-    add_action( 'media_buttons', 'fontawesome_shortcodes_help_styles' );
-}
+add_action('media_buttons', 'add_fontawesome_button', 11);
 
 function fontawesome_shortcodes_help() {
     include('fontawesome-shortcodes-help.php');
 }
 add_action( 'admin_footer', 'fontawesome_shortcodes_help' );
 
-// Add the Font Awesome Shortcodes button to Distraction Free Writing mode 
+// Add the Font Awesome Shortcodes button to Distraction Free Writing mode
 function fa_fullscreenbuttons($buttons) {
 
 	$buttons[] = 'separator';
@@ -114,7 +76,7 @@ function fa_fullscreenbuttons($buttons) {
 	$buttons['fontawesome-shortcodes'] = array(
 		'title' => __('Font Awesome Shortcodes Help'),
 		'onclick' => "jQuery('#fontawesome-shortcodes-help').modal('show');",
-		'both' => false 
+		'both' => false
 	);
 
 	return $buttons;
@@ -128,4 +90,3 @@ function fa_register_script($scripts){
     $scripts[] = "font-awesome-shortcodes-help-all";
     return $scripts;
 }
-?>
